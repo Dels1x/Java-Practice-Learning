@@ -1,16 +1,18 @@
+import javax.swing.JOptionPane;
+
 public class Main {
 
     public static void main(String[] args) {
 
-        // expression = operands and operators
-        // operands = variables, values, numbers, quantity
-        // operators = +-/* etc.
+        String name = JOptionPane.showInputDialog("Enter your name");
+        JOptionPane.showMessageDialog(null, "Hello, "+name+"!");
 
-        double friends = 10;
+        int age = Integer.parseInt // Convert string to integer
+                  (JOptionPane.showInputDialog("Enter your age"));
+        JOptionPane.showMessageDialog(null, "You are "+age+" years old.");
 
-        friends = friends / 3;
-
-        System.out.println(friends);
+        double height = Double.parseDouble(JOptionPane.showInputDialog("Enter your height"));
+        JOptionPane.showMessageDialog(null, "Your height is "+height+" cm tall");
 
     }
 }
