@@ -1,22 +1,16 @@
-import java.util.Scanner;
-
 public class Main {
 
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
+        // expression = operands and operators
+        // operands = variables, values, numbers, quantity
+        // operators = +-/* etc.
 
-        System.out.println("What is your name?");
-        String name = scanner.nextLine();
-        System.out.println("How old are you?");
-        short age = scanner.nextShort();
-        scanner.nextLine();
-        System.out.println("What is your GPU");
-        String gpu = scanner.nextLine();
+        double friends = 10;
 
-        System.out.printf("Your name is %s\n", name);
-        System.out.printf("You are %2d years old\n", age);
-        System.out.printf("Your GPU is %s\n", gpu);
+        friends = friends / 3;
+
+        System.out.println(friends);
 
     }
 }
