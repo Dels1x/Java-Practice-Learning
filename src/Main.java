@@ -1,43 +1,22 @@
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("\t\"GG\"\n");
-        System.out.println("\t\\tEZ\\n\n");
+        Scanner scanner = new Scanner(System.in);
 
-        // This is my first comment I wrote with JAVA хд (stint is cool, love GMD | Общение)
+        System.out.println("What is your name?");
+        String name = scanner.nextLine();
+        System.out.println("How old are you?");
+        short age = scanner.nextShort();
+        scanner.nextLine();
+        System.out.println("What is your GPU");
+        String gpu = scanner.nextLine();
 
-        /*This
-        is
-        stupidly
-        long
-        comment
-        lol
-         */
-
-        int x = 32;
-        float y = 6.42f;
-        boolean rx = true;
-        char symbol = '6';
-        String string = String.format("My number is %f = %b", y, rx);
-
-        System.out.println(string);
-
-        String strOne = "String one";
-        String strTwo = "String two";
-        String temp;
-
-        System.out.println(strOne+" "+strTwo);
-
-        temp = strTwo;
-        strTwo = strOne;
-        strOne = temp;
-
-        System.out.println(strOne+" "+strTwo);
-
-        // Bro Code you are genius. I've never seen such a cool example LOL
-        // I'm so happy that I didn't waste 12$ at these courses on udemy
-
+        System.out.printf("Your name is %s\n", name);
+        System.out.printf("You are %2d years old\n", age);
+        System.out.printf("Your GPU is %s\n", gpu);
 
     }
 }
