@@ -30,6 +30,7 @@ public class Main {
 
         System.out.println("The hypotenuse is "+c);
 
+        // kirill lox
 
     }
 }
