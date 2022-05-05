@@ -1,17 +1,23 @@
-import java.util.Random;
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-        
-        Random random = new Random();
 
-        int x = random.nextInt(1, 10);
-        double y = random.nextDouble(1, 10);
-        boolean z = random.nextBoolean();
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println(x + y);
-        System.out.println(z);
+        int age = scanner.nextInt();
+
+        if (age >= 75) {
+            System.out.println("C kakih por na kladbishe poyavilsya internet?");
+        }
+        else if(age >= 18) {
+            System.out.println("Ebat' ti stariy!");
+        }
+        else {
+            System.out.println("Ebat' ti molodoy!");
+        }
+
 
     }
 }
