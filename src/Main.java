@@ -4,24 +4,32 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String day = "Friday";
+        /* logical operators = used to connect two or more expressions
 
-        switch(day) {
-            case "Sunday": System.out.println("This is sunday!");
-            break;
-            case "Monday": System.out.println("HLTV top 20 today in 20:00!");
-            break;
-            case "Friday": System.out.println("Weekend tomorrow!");
-            break;
-            case "Tuesday": System.out.println("This is tuesday!");
-            break;
-            case "Wednesday": System.out.println("This is wednesday!");
-            break;
-            case "Saturday": System.out.println("This is saturday!");
-            break;
-            case "Thursday": System.out.println("This is thursday!");
-            break;
-            default: System.out.println("This is not a day!");
+                               && = (AND) both conditions must be true
+                               || = (OR) one of connections must be true
+                               ! = (NOT) reserves boolean value of condition */
+
+        int temp = 26;
+
+        if(temp >= 30) {
+            System.out.println("It is hot outside!");
+        }
+        else if(temp >= 15 && temp < 30) {
+            System.out.println("It is warm outside!");
+        }
+        else{
+            System.out.println("It is cold oustide!");
+        }
+
+        Scanner scanner  = new Scanner(System.in);
+        System.out.println("Press Q or q to quit");
+        String response = scanner.next(); //
+        if(response.equals("q") || response.equals("Q")) {
+            System.out.println("Bye!");
+        }
+        else{
+            System.out.println("ok dude");
         }
 
 

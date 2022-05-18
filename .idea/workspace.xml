@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="10. switches">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/projects/Calculator.java" afterDir="false" />
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="First JAVA project done: very stupid version of calculator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +44,7 @@
       <recent name="C:\Users\38099\IdeaProjects\BroCode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Calculator">
+  <component name="RunManager" selected="Application.Unnamed">
     <configuration name="Calculator" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="projects.Calculator" />
       <module name="BroCode" />
@@ -179,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651844838309</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="First JAVA project done: very stupid version of calculator">
+      <created>1652041337133</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1652041337133</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,6 +211,7 @@
     <MESSAGE value="8. random numbers" />
     <MESSAGE value="9. if statements" />
     <MESSAGE value="10. switches" />
-    <option name="LAST_COMMIT_MESSAGE" value="10. switches" />
+    <MESSAGE value="First JAVA project done: very stupid version of calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="First JAVA project done: very stupid version of calculator" />
   </component>
 </project>
