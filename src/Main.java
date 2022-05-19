@@ -4,15 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String name = "";
-
-        Scanner scanner  = new Scanner(System.in);
-        while(name.isBlank()) {
-            System.out.println("Enter your name.");
-            name = scanner.nextLine();
+        for(int i = 0; i <= 10; i++){
+            System.out.println(i);
         }
-
-        System.out.println("Hello, " + name + "!");
 
     }
 }
