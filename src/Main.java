@@ -4,33 +4,24 @@ public class Main {
 
     public static void main(String[] args) {
 
+        int[][] tictactoe = new int[3][3];
 
-        // array = you already know what array is you fucking retard you learned python dumbass
+        int index = 0;
 
-        String[] cars = {"Hyndai Tiburon", "Audi TT", "Toyota Corolla", "Peugeot 206"};
-
-        for(int i = 0; i < 4; i++){
-            System.out.println(cars[i]);
+        for(int i = 0; i < 3; i++){
+            for(int j = 0; j < 3; j++){
+                index++;
+                tictactoe[i][j] = index;
+            }
         }
 
-        cars[2] = "Nissan 370Z";
-
-        for(int i = 0; i < cars.length; i++){
-            System.out.println(cars[i]);
+        for(int i = 0; i < 3; i++){
+            for(int j = 0; j < 3; j++){
+                System.out.print(tictactoe[i][j] + " ");
+            }
+            System.out.println();
         }
-        
-        System.out.println(cars);
 
 
-        int[] years = new int[4];
-
-        years[0] = 2004;
-        years[1] = 2007;
-        years[2] = 2004;
-        years[3] = 2003;
-
-        for(int i = 0; i < years.length; i++){
-            System.out.println(years[i]);
-        }
     }
 }
