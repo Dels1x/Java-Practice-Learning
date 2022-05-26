@@ -4,28 +4,34 @@ public class Main {
 
     public static void main(String[] args) {
 
-        /*  ArrayList = Resizable array.
-            Elements can be added and removed after compilation phase
-            store reference data types                                  */
+        ArrayList<ArrayList<String>> Hardware = new ArrayList<ArrayList<String>>();
 
-        ArrayList<String> food = new ArrayList<String>();
+        ArrayList<String> CPUs = new ArrayList<String>();
+        ArrayList<String> GPUs = new ArrayList<String>();
+        ArrayList<String> RAMs = new ArrayList<String>();
 
-        food.add("Pizza");
-        food.add("Ice cream");
-        food.add("Chips");
-        food.add("Pasta");
+        CPUs.add("intel i5 12400f");
+        CPUs.add("AMD Ryzen 5800X");
+        CPUs.add("AMD Phenom B55");
 
-        food.set(1, "Hamburger");
-        food.remove(food.size()-1);
+        GPUs.add("AMD RX 6600 XT");
+        GPUs.add("GeForce RTX 3080 Ti");
+        GPUs.add("GeForce GTX 260");
 
-        for(int i = 0; i < food.size(); i++) {
-            System.out.println(food.get(i));
-        }
+        RAMs.add("16GB");
+        RAMs.add("64GB");
+        RAMs.add("4GB");
 
-        food.clear(); // removes all items from the ArrayList
+        Hardware.add(CPUs);
+        Hardware.add(GPUs);
+        Hardware.add(RAMs);
 
-        for(int i = 0; i < food.size(); i++) {
-            System.out.println(food.get(i));
+        for(int i = 0; i < Hardware.size(); i++){
+            for(int j = 0; j < Hardware.size(); j++){
+                System.out.print(Hardware.get(j).get(i) + " ");
+            }
+
+            System.out.println();
         }
 
     }

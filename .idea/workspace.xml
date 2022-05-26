@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="18. wrapper classes">
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="19. ArrayList">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -255,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653573114566</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="19. ArrayList">
+      <created>1653577402351</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1653577402351</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,6 +297,7 @@
     <MESSAGE value="16. 2D arrays" />
     <MESSAGE value="17. String methods" />
     <MESSAGE value="18. wrapper classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="18. wrapper classes" />
+    <MESSAGE value="19. ArrayList" />
+    <option name="LAST_COMMIT_MESSAGE" value="19. ArrayList" />
   </component>
 </project>
