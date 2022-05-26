@@ -4,6 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
 
+        // primitive data types are faster than wrapped, but wrapped data types have some useful methods
+
         Boolean a = true;
         Character b = 's';
         Integer c = 123;
