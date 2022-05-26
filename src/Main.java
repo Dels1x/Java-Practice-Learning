@@ -31,7 +31,7 @@ public class Main {
                 System.out.print(Hardware.get(j).get(i) + " ");
             }
 
-            System.out.println();
+            System.out.println(CPUs.get(i).isBlank());
         }
 
     }
