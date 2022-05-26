@@ -1,20 +1,32 @@
-import java.util.Scanner;
+import java.util.ArrayList;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        // primitive data types are faster than wrapped, but wrapped data types have some useful methods
+        /*  ArrayList = Resizable array.
+            Elements can be added and removed after compilation phase
+            store reference data types                                  */
 
-        Boolean a = true;
-        Character b = 's';
-        Integer c = 123;
-        Double d = 12.3344577;
-        String e = "delsix";
+        ArrayList<String> food = new ArrayList<String>();
 
-        String f = c.toString();
+        food.add("Pizza");
+        food.add("Ice cream");
+        food.add("Chips");
+        food.add("Pasta");
 
-        System.out.print(f);
+        food.set(1, "Hamburger");
+        food.remove(food.size()-1);
+
+        for(int i = 0; i < food.size(); i++) {
+            System.out.println(food.get(i));
+        }
+
+        food.clear(); // removes all items from the ArrayList
+
+        for(int i = 0; i < food.size(); i++) {
+            System.out.println(food.get(i));
+        }
 
     }
 }
