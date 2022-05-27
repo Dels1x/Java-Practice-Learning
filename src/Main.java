@@ -4,20 +4,32 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int age = 17;
-        hello("delsix", age);
+        // overloaded methods = methods that share the same name but have different parameters
+        //                      method name + parameters = method signature
 
-        System.out.println(age(5, 9));
-
+        double x = multiply(23.75, 25.5, 27.25);
+        System.out.println(x);
 
     }
 
-    static void hello(String name, int age){
-        System.out.println("Hello "+name+"!");
-        System.out.println("You are " +age+" years old!");
+    static int multiply(int a, int b){
+        return a*b;
+    }
+    static int multiply(int a, int b, int c){
+        return a*b*c;
+    }
+    static int multiply(int a, int b, int c, int d){
+        return a*b*c*d;
+    }
+    static double multiply(double a, double b){
+        return a*b;
+    }
+    static double multiply(double a, double b, double c){
+        return a*b*c;
+    }
+    static double multiply(double a, double b, double c, double d){
+        return a*b*c*d;
     }
 
-    static int age(int x, int y) {
-        return x+y;
-    }
+
 }
