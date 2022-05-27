@@ -4,13 +4,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        boolean myBoolean = true;
-        char myChar = '(';
-        String myString = "LOL";
-        int myInt = 5432;
-        double myDouble = 206.1337;
+        final double PI = 3.14159;
 
-        System.out.printf("%b The %c number %30s is %d + %.2f", myBoolean, myChar, myString, myInt, myDouble);
+        // final keyword basically makes a constanta out of variable, so you can no longer change it.
+        // YOU SHOULD WRITE IT WITH UPPERCASE LETTERS
+
+        System.out.println(PI);
 
     }
 
