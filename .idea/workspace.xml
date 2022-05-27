@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="20. 2D ArrayList">
-      <change afterPath="$PROJECT_DIR$/src/projects/PersonalArrayList.java" afterDir="false" />
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="2nd JAVA project done. using what I learned in 11-20th lesson">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -45,7 +44,7 @@
       <recent name="C:\Users\38099\IdeaProjects\BroCode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PersonalArraylist">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Calculator" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="projects.Calculator" />
       <module name="BroCode" />
@@ -278,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653578326202</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="2nd JAVA project done. using what I learned in 11-20th lesson">
+      <created>1653599845214</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1653599845215</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -315,6 +321,7 @@
     <MESSAGE value="18. wrapper classes" />
     <MESSAGE value="19. ArrayList" />
     <MESSAGE value="20. 2D ArrayList" />
-    <option name="LAST_COMMIT_MESSAGE" value="20. 2D ArrayList" />
+    <MESSAGE value="2nd JAVA project done. using what I learned in 11-20th lesson" />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd JAVA project done. using what I learned in 11-20th lesson" />
   </component>
 </project>
