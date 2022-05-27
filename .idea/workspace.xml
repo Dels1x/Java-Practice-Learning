@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="2nd JAVA project done. using what I learned in 11-20th lesson">
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="21. for-each loop">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -284,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653599845215</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="21. for-each loop">
+      <created>1653648475213</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1653648475214</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -322,6 +329,7 @@
     <MESSAGE value="19. ArrayList" />
     <MESSAGE value="20. 2D ArrayList" />
     <MESSAGE value="2nd JAVA project done. using what I learned in 11-20th lesson" />
-    <option name="LAST_COMMIT_MESSAGE" value="2nd JAVA project done. using what I learned in 11-20th lesson" />
+    <MESSAGE value="21. for-each loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="21. for-each loop" />
   </component>
 </project>

@@ -4,11 +4,20 @@ public class Main {
 
     public static void main(String[] args) {
 
-       String[] animals = {"cat", "dog", "donkey", "eagle"};
+        int age = 17;
+        hello("delsix", age);
 
-       for(String i : animals){ // basically python's "for i in animals:" in Java
-           System.out.println(i);
-       }
+        System.out.println(age(5, 9));
 
+
+    }
+
+    static void hello(String name, int age){
+        System.out.println("Hello "+name+"!");
+        System.out.println("You are " +age+" years old!");
+    }
+
+    static int age(int x, int y) {
+        return x+y;
     }
 }
