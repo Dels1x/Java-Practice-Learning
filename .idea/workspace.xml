@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="25. final keywoard">
-      <change afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="26. OOP">
+      <change afterPath="$PROJECT_DIR$/src/Human.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -320,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653654840961</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="26. OOP">
+      <created>1653721364442</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1653721364442</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -335,7 +342,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="3. swap two variables" />
     <MESSAGE value="4. user input" />
     <MESSAGE value="5. expressions" />
     <MESSAGE value="6. GUI intro" />
@@ -360,6 +366,7 @@
     <MESSAGE value="23. overloaded methods" />
     <MESSAGE value="24. printf" />
     <MESSAGE value="25. final keywoard" />
-    <option name="LAST_COMMIT_MESSAGE" value="25. final keywoard" />
+    <MESSAGE value="26. OOP" />
+    <option name="LAST_COMMIT_MESSAGE" value="26. OOP" />
   </component>
 </project>

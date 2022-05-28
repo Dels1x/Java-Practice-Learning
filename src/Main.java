@@ -1,29 +1,23 @@
-import java.util.ArrayList;
-
 public class Main {
 
     public static void main(String[] args) {
 
-        // object = an instance of a class that may contain attributes and methods
-        // example: (phone, desk, coffee cup, bottle)
+        Human human1 = new Human("Danislav", 17, 57.5);
+        Human human2 = new Human("Igor", 13, 47.7);
 
-        Car myCar1 = new Car();
-        Car myCar2 = new Car();
+        System.out.println(human1.name);
+        System.out.println(human1.age);
+        System.out.println(human1.weight);
+        System.out.println();
+        System.out.println();
+        System.out.println(human2.name);
+        System.out.println(human2.age);
+        System.out.println(human2.weight);
 
-        System.out.println(myCar1.make);
-        System.out.println(myCar1.model);
-        System.out.println(myCar1.year);
-        System.out.println(myCar1.color);
-
-        myCar1.brake();
+        human2.eat();
+        human1.drink();
 
 
-        System.out.println(myCar2.make);
-        System.out.println(myCar2.model);
-        System.out.println(myCar2.year);
-        System.out.println(myCar2.color);
-
-        myCar2.brake();
 
     }
 
