@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="29. overloaded constructors">
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="30. toString method">
+      <change afterPath="$PROJECT_DIR$/src/projects/MathGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/NumberGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +46,7 @@
       <recent name="C:\Users\38099\IdeaProjects\BroCode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.MathGame">
     <configuration name="Calculator" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="projects.Calculator" />
       <module name="BroCode" />
@@ -60,6 +61,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MathGame" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="projects.MathGame" />
+      <module name="BroCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PersonalArraylist" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="projects.PersonalArrayList" />
       <module name="BroCode" />
@@ -69,6 +77,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.MathGame" />
       <item itemvalue="Application.Calculator" />
       <item itemvalue="Application.PersonalArraylist" />
     </list>
@@ -348,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653764556449</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="30. toString method">
+      <created>1653765529716</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1653765529716</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -363,7 +379,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="7. Math class" />
     <MESSAGE value="8. random numbers" />
     <MESSAGE value="9. if statements" />
     <MESSAGE value="10. switches" />
@@ -388,6 +403,7 @@
     <MESSAGE value="27. constructors" />
     <MESSAGE value="28. variable scope" />
     <MESSAGE value="29. overloaded constructors" />
-    <option name="LAST_COMMIT_MESSAGE" value="29. overloaded constructors" />
+    <MESSAGE value="30. toString method" />
+    <option name="LAST_COMMIT_MESSAGE" value="30. toString method" />
   </component>
 </project>
