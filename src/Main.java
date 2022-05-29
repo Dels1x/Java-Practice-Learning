@@ -2,19 +2,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Food[] refrigerator = new Food[3];
+        Garage garage = new Garage();
+        Car car1 = new Car("Opel");
+        Car car2 = new Car("Peugeot 206");
 
-        Food food1 = new Food("Ice cream");
-        Food food2 = new Food("Pizza");
-        Food food3 = new Food("Tiramisu");
+        garage.park(car1);
+        garage.park(car2);
 
-        refrigerator[0] = food1;
-        refrigerator[1] = food2;
-        refrigerator[2] = food3;
-
-        for(Object i : refrigerator){
-            System.out.println(i);
-        }
 
     }
 

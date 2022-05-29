@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="3rd project done: math game">
-      <change afterPath="$PROJECT_DIR$/src/Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="31. array of objects">
+      <change afterPath="$PROJECT_DIR$/src/Garage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -370,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653828530710</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="31. array of objects">
+      <created>1653857330576</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1653857330576</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -385,7 +392,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="9. if statements" />
     <MESSAGE value="10. switches" />
     <MESSAGE value="First JAVA project done: very stupid version of calculator" />
     <MESSAGE value="11. logical operator" />
@@ -410,6 +416,7 @@
     <MESSAGE value="29. overloaded constructors" />
     <MESSAGE value="30. toString method" />
     <MESSAGE value="3rd project done: math game" />
-    <option name="LAST_COMMIT_MESSAGE" value="3rd project done: math game" />
+    <MESSAGE value="31. array of objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="31. array of objects" />
   </component>
 </project>
