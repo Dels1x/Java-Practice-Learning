@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="30. toString method">
-      <change afterPath="$PROJECT_DIR$/src/projects/MathGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/projects/NumberGenerator.java" afterDir="false" />
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="3rd project done: math game">
+      <change afterPath="$PROJECT_DIR$/src/Food.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -46,7 +45,7 @@
       <recent name="C:\Users\38099\IdeaProjects\BroCode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MathGame">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Calculator" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="projects.Calculator" />
       <module name="BroCode" />
@@ -364,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653765529716</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="3rd project done: math game">
+      <created>1653828530710</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1653828530710</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -379,7 +385,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="8. random numbers" />
     <MESSAGE value="9. if statements" />
     <MESSAGE value="10. switches" />
     <MESSAGE value="First JAVA project done: very stupid version of calculator" />
@@ -404,6 +409,7 @@
     <MESSAGE value="28. variable scope" />
     <MESSAGE value="29. overloaded constructors" />
     <MESSAGE value="30. toString method" />
-    <option name="LAST_COMMIT_MESSAGE" value="30. toString method" />
+    <MESSAGE value="3rd project done: math game" />
+    <option name="LAST_COMMIT_MESSAGE" value="3rd project done: math game" />
   </component>
 </project>
