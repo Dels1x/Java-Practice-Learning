@@ -5,7 +5,7 @@ public class Main {
         // absract =   abstract classes cannot be instantiated, but they can have a subclass (child)
         //             abstract methods are declared without implementation
 
-        // Vehicle vechile = new Vehicle(); ERROR
+        // Vehicle vehicle = new Vehicle(); ERROR
         Car car = new Car("Dodge Challenger");
         car.go(); car.stop();
 
