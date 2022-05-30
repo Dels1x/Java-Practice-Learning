@@ -5,12 +5,17 @@ public class Main {
         // static = modifier. A single copy of a variable/method is created and shared.
         //          The class "owns" the static member
 
-        Garage garage = new Garage();
-        Car car1 = new Car("Opel", "Astra");
-        Car car2 = new Car("Peugeot", "206");
+        // My explanation: all objects share static variable, and if you change it trough one object, it'll change on others too
 
-        garage.park(car1);
-        garage.park(car2);
+        Friend friend1 = new Friend("Danya Hamula");
+        Friend friend2 = new Friend("Kiril Charyshnikov");
+        Friend friend3 = new Friend("Igor Murzakov");
+        Friend friend4 = new Friend("Klim AngaraRiver");
+        Friend friend5 = new Friend("Pavel Tockmach");
+
+        Friend.displayFriends();
+        friend4.numberOfFriends = 8;
+        Friend.displayFriends();
 
 
     }
