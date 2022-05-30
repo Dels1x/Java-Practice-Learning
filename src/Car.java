@@ -1,9 +1,5 @@
-public class Car {
-    String make;
-    String model;
-
-    Car(String make, String model){
-        this.make = make;
-        this.model = model;
-    }
+public class Car extends Vehicle {
+    int wheels = 4;
+    int doors = 4;
+    int pedals = 3;
 }

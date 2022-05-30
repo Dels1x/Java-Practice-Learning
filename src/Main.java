@@ -2,20 +2,17 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // static = modifier. A single copy of a variable/method is created and shared.
-        //          The class "owns" the static member
+        // inheritance = the process where one class acquires
+        //               the attributes and methods of another.
 
-        // My explanation: all objects share static variable, and if you change it trough one object, it'll change on others too
+        Car car = new Car();
+        car.go();
 
-        Friend friend1 = new Friend("Danya Hamula");
-        Friend friend2 = new Friend("Kiril Charyshnikov");
-        Friend friend3 = new Friend("Igor Murzakov");
-        Friend friend4 = new Friend("Klim AngaraRiver");
-        Friend friend5 = new Friend("Pavel Tockmach");
+        Bicycle bike = new Bicycle();
+        bike.go();
 
-        Friend.displayFriends();
-        friend4.numberOfFriends = 8;
-        Friend.displayFriends();
+        System.out.println(car.pedals);
+        System.out.println(bike.pedals);
 
 
     }
