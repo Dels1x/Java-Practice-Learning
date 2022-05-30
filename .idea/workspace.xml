@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="33. static  keyword">
-      <change afterPath="$PROJECT_DIR$/src/Bicycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="34. inheritance" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -400,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653908163425</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="34. inheritance">
+      <created>1653909161813</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1653909161813</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -415,7 +416,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="11. logical operator" />
     <MESSAGE value="12. while loop" />
     <MESSAGE value="12. for loop" />
     <MESSAGE value="14. nested loops" />
@@ -440,6 +440,7 @@
     <MESSAGE value="31. array of objects" />
     <MESSAGE value="32. object passing" />
     <MESSAGE value="33. static  keyword" />
-    <option name="LAST_COMMIT_MESSAGE" value="33. static  keyword" />
+    <MESSAGE value="34. inheritance" />
+    <option name="LAST_COMMIT_MESSAGE" value="34. inheritance" />
   </component>
 </project>
