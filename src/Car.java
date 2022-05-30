@@ -1,7 +1,9 @@
 public class Car {
-    String name;
+    String make;
+    String model;
 
-    Car(String name){
-        this.name = name;
+    Car(String make, String model){
+        this.make = make;
+        this.model = model;
     }
 }
