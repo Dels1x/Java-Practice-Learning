@@ -2,13 +2,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // super =  keyword refers to the superclass (parent) of an object
-        //          very similar to "this" keyword
+        // absract =   abstract classes cannot be instantiated, but they can have a subclass (child)
+        //             abstract methods are declared without implementation
 
-        Hero hero1 = new Hero("Flash", 25, "Speed");
-
-        System.out.println(hero1);
-
+        // Vehicle vechile = new Vehicle(); ERROR
+        Car car = new Car("Dodge Challenger");
+        car.go(); car.stop();
 
     }
 
