@@ -1,18 +1,38 @@
-public class Car extends Vehicle {
-    int wheels = 4;
-    int doors = 4;
-    int pedals = 3;
-    String name;
+public class Car {
 
-    Car(String name){
-        this.name = name;
+
+    private String make;
+    private String model;
+    private int year;
+
+    Car(String make, String model, int year) {
+        this.setMake(make);
+        this.setModel(model);
+        this.setYear(year);
     }
 
-    void go(){
-        System.out.println(this.name+" is going!");
+    public String getMake() {
+        return make;
     }
 
-    void stop(){
-        System.out.println(this.name+" is stopped!");
+    public String getModel() {
+        return model;
     }
+
+    public int getYear() {
+        return year;
+    }
+
+    public void setMake(String make) {
+        this.make = make;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
 }
