@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="39. Encapsulation">
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="4th project progress. Created all needed classes">
+      <change afterPath="$PROJECT_DIR$/src/projects/AdventureGame/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/AdventureGame/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/AdventureGame/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/AdventureGame/Ohrimchuk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/AdventureGame/Slizen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +48,16 @@
       <recent name="C:\Users\38099\IdeaProjects\BroCode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.AdventureGame">
     <configuration name="A" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="package1.A" />
+      <module name="BroCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdventureGame" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="projects.AdventureGame.Main" />
       <module name="BroCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,6 +93,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.AdventureGame" />
       <item itemvalue="Application.A" />
       <item itemvalue="Application.MathGame" />
       <item itemvalue="Application.Calculator" />
@@ -97,20 +108,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00005" summary="2. variables">
-      <created>1650555991629</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1650555991629</updated>
-    </task>
-    <task id="LOCAL-00006" summary="3. swap two variables">
-      <created>1650556959526</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1650556959526</updated>
     </task>
     <task id="LOCAL-00007" summary="4. user input">
       <created>1650563612487</created>
@@ -441,7 +438,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654008855957</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="40. copy objects">
+      <created>1654009632328</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1654009632328</updated>
+    </task>
+    <task id="LOCAL-00055" summary="40. copy objects">
+      <created>1654009653579</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1654009653579</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -456,8 +467,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="17. String methods" />
-    <MESSAGE value="18. wrapper classes" />
     <MESSAGE value="19. ArrayList" />
     <MESSAGE value="20. 2D ArrayList" />
     <MESSAGE value="2nd JAVA project done. using what I learned in 11-20th lesson" />
@@ -481,6 +490,8 @@
     <MESSAGE value="37. abstraction" />
     <MESSAGE value="38. access modifiers" />
     <MESSAGE value="39. Encapsulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="39. Encapsulation" />
+    <MESSAGE value="40. copy objects" />
+    <MESSAGE value="4th project progress. Created all needed classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="4th project progress. Created all needed classes" />
   </component>
 </project>
