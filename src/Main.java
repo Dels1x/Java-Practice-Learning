@@ -12,13 +12,17 @@ public class Main {
 
         System.out.println(car.getMake());
         System.out.println(car.getModel());
-        System.out.println(car.getYear());
+        System.out.println(car.getYear()+"\n");
 
         car.setYear(2022);
 
         System.out.println(car.getMake());
         System.out.println(car.getModel());
         System.out.println(car.getYear());
+
+        car.setMake("");
+        car.setModel("");
+        car.setYear(228);
 
     }
 

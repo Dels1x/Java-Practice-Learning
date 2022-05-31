@@ -24,15 +24,31 @@ public class Car {
     }
 
     public void setMake(String make) {
-        this.make = make;
+        if(!make.isBlank()) {
+            this.make = make;
+        }
+        else{
+            System.out.println("You wrote empty name of make");
+        }
     }
 
     public void setModel(String model) {
-        this.model = model;
+        if(!model.isBlank()) {
+            this.model = model;
+        }
+        else{
+            System.out.println("You wrote empty name of model");
+        }
+
     }
 
     public void setYear(int year) {
-        this.year = year;
+        if(year > 1870 && year < 2030) {
+            this.year = year;
+        }
+        else{
+            System.out.println("Bro, there is no car that got released that year lol. are you high mf?");
+        }
     }
 
 }
