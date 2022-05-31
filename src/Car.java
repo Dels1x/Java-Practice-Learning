@@ -11,6 +11,10 @@ public class Car {
         this.setYear(year);
     }
 
+    Car(Car carObject) {
+        this.copy(carObject);
+    }
+
     public String getMake() {
         return make;
     }
@@ -49,6 +53,16 @@ public class Car {
         else{
             System.out.println("Bro, there is no car that got released that year lol. are you high mf?");
         }
+    }
+
+    public String toString() {
+        return this.make + " " + this.model + " " + this.year;
+    }
+
+    public void copy(Car carObject) {
+        this.setMake(carObject.getMake());
+        this.setModel(carObject.getModel());
+        this.setYear(carObject.getYear());
     }
 
 }

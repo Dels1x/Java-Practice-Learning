@@ -98,13 +98,6 @@
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
     </task>
-    <task id="LOCAL-00004" summary="1. Java tutorial for beginners">
-      <created>1650552898521</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1650552898521</updated>
-    </task>
     <task id="LOCAL-00005" summary="2. variables">
       <created>1650555991629</created>
       <option name="number" value="00005" />
@@ -441,7 +434,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654005000170</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="39. Encapsulation">
+      <created>1654008855957</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1654008855957</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
