@@ -10,6 +10,9 @@ public class Hero extends Entity {
 
     }
 
-
+    void attack(Slizen slizen) {
+        slizen.setHP(slizen.getHP() - this.getDamage());
+        System.out.printf("You attacked slizen! You left him %dHP \n", slizen.getHP());
+    }
 
 }

@@ -2,10 +2,10 @@ package projects.AdventureGame;
 
 public abstract class Entity {
 
-    String name;
-    String description;
-    int hp;
-    int damage;
+    private String name;
+    private String description;
+    private int hp;
+    private int damage;
 
     public String getName() {
         return this.name;
@@ -38,7 +38,7 @@ public abstract class Entity {
         this.damage = damage;
     }
 
-    public String toString(){
+    public String toString() {
         return this.name + "\n" + this.description + "\n" + this.hp + "\n" + this.damage;
     }
 
