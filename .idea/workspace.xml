@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="4th project progress. Set up entity and player class">
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="4th project progress. Set up all classes and first fight got successfully. Encapsulation used in the right way">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/AdventureGame/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/AdventureGame/Entity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/AdventureGame/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/AdventureGame/Hero.java" afterDir="false" />
@@ -108,13 +108,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00009" summary="6. GUI intro">
-      <created>1650571598297</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1650571598297</updated>
     </task>
     <task id="LOCAL-00010" summary="6. GUI intro">
       <created>1650571777792</created>
@@ -452,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654022073306</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="4th project progress. Set up all classes and first fight got successfully. Encapsulation used in the right way">
+      <created>1654034035203</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1654034035204</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -467,7 +467,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20. 2D ArrayList" />
     <MESSAGE value="2nd JAVA project done. using what I learned in 11-20th lesson" />
     <MESSAGE value="21. for-each loop" />
     <MESSAGE value="22. methods" />
@@ -492,6 +491,7 @@
     <MESSAGE value="40. copy objects" />
     <MESSAGE value="4th project progress. Created all needed classes" />
     <MESSAGE value="4th project progress. Set up entity and player class" />
-    <option name="LAST_COMMIT_MESSAGE" value="4th project progress. Set up entity and player class" />
+    <MESSAGE value="4th project progress. Set up all classes and first fight got successfully. Encapsulation used in the right way" />
+    <option name="LAST_COMMIT_MESSAGE" value="4th project progress. Set up all classes and first fight got successfully. Encapsulation used in the right way" />
   </component>
 </project>

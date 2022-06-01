@@ -1,6 +1,10 @@
 package projects.AdventureGame;
 
+import java.util.Random;
+
 public abstract class Entity {
+
+    Random random = new Random();
 
     private String name;
     private String description;
@@ -23,7 +27,13 @@ public abstract class Entity {
         return this.damage;
     }
     public void setName(String name) {
-        this.name = name;
+        if(!name.isBlank()) {
+            this.name = name;
+        }
+        else{
+            System.out.println("You entered blank name! So you will be called dolboeb");
+            this.name = "dolboeb";
+        }
     }
 
     public void setDescription(String description) {
@@ -39,7 +49,13 @@ public abstract class Entity {
     }
 
     public String toString() {
-        return this.name + "\n" + this.description + "\n" + this.hp + "\n" + this.damage;
+        return "Name: "+this.name + "\nDescription: " + this.description + "\nHP: " + this.hp + "\nDamage: " + this.damage;
+    }
+
+    public int dice() {
+        int number = random.nextInt(12)+1;
+        System.out.println("Rolling dice... Dice says: "+number);
+        return number+1+this.damage;
     }
 
 }

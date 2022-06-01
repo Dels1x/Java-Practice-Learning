@@ -10,4 +10,9 @@ public class Ohrimchuk extends Entity {
 
     }
 
+    void attack(Hero hero) {
+        hero.setHP(hero.getHP() - this.dice());
+        System.out.printf("Ohrimchuk attacked you! He left you %dHP \n", hero.getHP());
+    }
+
 }

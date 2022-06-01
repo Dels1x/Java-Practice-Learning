@@ -10,4 +10,9 @@ public class Slizen extends Entity {
 
     }
 
+    void attack(Hero hero) {
+        hero.setHP(hero.getHP() - this.dice());
+        System.out.printf("Slizen attacked you! He left you %dHP \n", hero.getHP());
+    }
+
 }
