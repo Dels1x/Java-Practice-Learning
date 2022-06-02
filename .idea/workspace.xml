@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="41. interface">
-      <change afterPath="$PROJECT_DIR$/src/Boat.java" afterDir="false" />
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="42. polymorphism">
+      <change afterPath="$PROJECT_DIR$/src/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bicycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,13 +106,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00012" summary="7. Math class">
-      <created>1650653352828</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1650653352828</updated>
     </task>
     <task id="LOCAL-00013" summary="8. random numbers">
       <created>1651590725570</created>
@@ -453,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654168178593</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="42. polymorphism">
+      <created>1654176189290</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1654176189291</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -468,7 +465,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="22. methods" />
     <MESSAGE value="23. overloaded methods" />
     <MESSAGE value="24. printf" />
     <MESSAGE value="25. final keywoard" />
@@ -493,6 +489,7 @@
     <MESSAGE value="4th project progress. Set up all classes and first fight got successfully. Encapsulation used in the right way" />
     <MESSAGE value="4th project done. Nemnogo krivo i obrezanno, no soidet" />
     <MESSAGE value="41. interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="41. interface" />
+    <MESSAGE value="42. polymorphism" />
+    <option name="LAST_COMMIT_MESSAGE" value="42. polymorphism" />
   </component>
 </project>
