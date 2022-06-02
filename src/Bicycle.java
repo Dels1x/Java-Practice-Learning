@@ -1,4 +1,7 @@
-public class Bicycle {
-    int wheels = 2;
-    int pedals = 2;
+public class Bicycle extends Vehicle {
+
+    public void go() {
+        System.out.println("The bicycle is going");
+    }
+
 }

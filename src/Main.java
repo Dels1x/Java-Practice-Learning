@@ -4,18 +4,19 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // interface = a template that can be applied to a class.
-        //             similar to inheritance, but specifies what class has/must do
-        //             classes can apply more than one interface, inheritance is limited to 1 super
+        // polymorphism = greek word for poly - "many", morph = "form".
+        //                The ability of an object to identify as more than one type
 
-    Rabbit rabbit = new Rabbit();
-    Hawk hawk = new Hawk();
-    Fish fish = new Fish();
 
-    rabbit.flee();
-    hawk.hunt();
-    fish.flee();
-    fish.hunt();
+        Car car = new Car();
+        Bicycle bicycle = new Bicycle();
+        Boat boat = new Boat();
+
+        Vehicle[] racers = {car, bicycle, boat};
+
+        for(Vehicle i : racers)  { // you could also use "object" instead of "Vehicle"
+            i.go();
+        }
 
     }
 

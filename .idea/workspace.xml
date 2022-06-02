@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="4th project done. Nemnogo krivo i obrezanno, no soidet">
-      <change afterPath="$PROJECT_DIR$/src/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hawk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Predator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Rabbit.java" afterDir="false" />
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="41. interface">
+      <change afterPath="$PROJECT_DIR$/src/Boat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bicycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -94,11 +93,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.AdventureGame" />
       <item itemvalue="Application.A" />
-      <item itemvalue="Application.MathGame" />
+      <item itemvalue="Application.AdventureGame" />
       <item itemvalue="Application.Calculator" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.MathGame" />
       <item itemvalue="Application.PersonalArraylist" />
     </list>
   </component>
@@ -110,13 +109,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00011" summary="7. Math class">
-      <created>1650653224552</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1650653224552</updated>
     </task>
     <task id="LOCAL-00012" summary="7. Math class">
       <created>1650653352828</created>
@@ -454,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654078133341</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="41. interface">
+      <created>1654168178592</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1654168178593</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -469,7 +468,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="21. for-each loop" />
     <MESSAGE value="22. methods" />
     <MESSAGE value="23. overloaded methods" />
     <MESSAGE value="24. printf" />
@@ -494,6 +492,7 @@
     <MESSAGE value="4th project progress. Set up entity and player class" />
     <MESSAGE value="4th project progress. Set up all classes and first fight got successfully. Encapsulation used in the right way" />
     <MESSAGE value="4th project done. Nemnogo krivo i obrezanno, no soidet" />
-    <option name="LAST_COMMIT_MESSAGE" value="4th project done. Nemnogo krivo i obrezanno, no soidet" />
+    <MESSAGE value="41. interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="41. interface" />
   </component>
 </project>
