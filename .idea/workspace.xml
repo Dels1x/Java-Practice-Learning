@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="4th project progress. Set up all classes and first fight got successfully. Encapsulation used in the right way">
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="4th project done. Nemnogo krivo i obrezanno, no soidet">
+      <change afterPath="$PROJECT_DIR$/src/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hawk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Predator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Rabbit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/AdventureGame/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/AdventureGame/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/AdventureGame/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/AdventureGame/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/AdventureGame/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/AdventureGame/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/AdventureGame/Ohrimchuk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/AdventureGame/Ohrimchuk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/AdventureGame/Slizen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/AdventureGame/Slizen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -48,7 +50,7 @@
       <recent name="C:\Users\38099\IdeaProjects\BroCode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AdventureGame">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="A" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="package1.A" />
       <module name="BroCode" />
@@ -108,13 +110,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00010" summary="6. GUI intro">
-      <created>1650571777792</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1650571777792</updated>
     </task>
     <task id="LOCAL-00011" summary="7. Math class">
       <created>1650653224552</created>
@@ -452,7 +447,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654034035204</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="4th project done. Nemnogo krivo i obrezanno, no soidet">
+      <created>1654078133341</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1654078133341</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -467,7 +469,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2nd JAVA project done. using what I learned in 11-20th lesson" />
     <MESSAGE value="21. for-each loop" />
     <MESSAGE value="22. methods" />
     <MESSAGE value="23. overloaded methods" />
@@ -492,6 +493,7 @@
     <MESSAGE value="4th project progress. Created all needed classes" />
     <MESSAGE value="4th project progress. Set up entity and player class" />
     <MESSAGE value="4th project progress. Set up all classes and first fight got successfully. Encapsulation used in the right way" />
-    <option name="LAST_COMMIT_MESSAGE" value="4th project progress. Set up all classes and first fight got successfully. Encapsulation used in the right way" />
+    <MESSAGE value="4th project done. Nemnogo krivo i obrezanno, no soidet" />
+    <option name="LAST_COMMIT_MESSAGE" value="4th project done. Nemnogo krivo i obrezanno, no soidet" />
   </component>
 </project>
