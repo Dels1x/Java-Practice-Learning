@@ -5,8 +5,9 @@ public class Main {
 
     public static void main(String[] args) {
 
+        Scanner scanner = new Scanner(System.in);
+
         try {
-            Scanner scanner = new Scanner(System.in);
 
             int x = scanner.nextInt();
             int y = scanner.nextInt();
@@ -22,6 +23,12 @@ public class Main {
         catch(Exception e) {
             System.out.println("laziness");
         }
+        finally{
+            System.out.println("This will always print");
+            scanner.close();
+        }
+
+        // finally block is good to add, to close any of scanners or files that can be open
 
 
     }
