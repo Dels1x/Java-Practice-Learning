@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // FileReader = read the content of a file as a stream of characters. return int byte value
+        // FileReader = read the content of a file as a stream of characters. return int byte value //
 
         try {
             FileReader fr = new FileReader("poem.txt");
