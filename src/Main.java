@@ -1,35 +1,19 @@
-import java.util.InputMismatchException;
-import java.util.Scanner;
+import java.io.File;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
+        File file = new File("C:\\Users\\38099\\IdeaProjects\\BroCode\\src\\secret_message.txt");
 
-        try {
-
-            int x = scanner.nextInt();
-            int y = scanner.nextInt();
-
-            System.out.println(x / y);
+        if(file.exists()) {
+            System.out.println("That file exists 0_0");
+            System.out.println(file);
+            file.delete();
         }
-        catch(ArithmeticException e) {
-            System.out.println("You can divide by 0 retard");
+        else {
+            System.out.println("That file doesn't exist x_x");
         }
-        catch(InputMismatchException e) {
-            System.out.println("Enter a fricking number god damn it");
-        }
-        catch(Exception e) {
-            System.out.println("laziness");
-        }
-        finally{
-            System.out.println("This will always print");
-            scanner.close();
-        }
-
-        // finally block is good to add, to close any of scanners or files that can be open
-
 
     }
 
