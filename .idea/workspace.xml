@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="48. audio">
-      <change afterPath="$PROJECT_DIR$/Dels1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyFrame.java" afterDir="false" />
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="49. GUI">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,13 +109,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00022" summary="15. arrays">
-      <created>1653510187518</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1653510187518</updated>
     </task>
     <task id="LOCAL-00023" summary="16. 2D arrays">
       <created>1653517148240</created>
@@ -454,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654350488981</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="49. GUI">
+      <created>1654354884258</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1654354884258</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -470,7 +469,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="30. toString method" />
     <MESSAGE value="3rd project done: math game" />
     <MESSAGE value="31. array of objects" />
     <MESSAGE value="32. object passing" />
@@ -495,7 +493,8 @@
     <MESSAGE value="46. FileReader (read a file)" />
     <MESSAGE value="47. FileReader (read a file)" />
     <MESSAGE value="48. audio" />
-    <option name="LAST_COMMIT_MESSAGE" value="48. audio" />
+    <MESSAGE value="49. GUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="49. GUI" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
