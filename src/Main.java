@@ -1,35 +1,30 @@
-import java.io.File;
-import java.io.IOException;
-import java.util.Locale;
-import java.util.Scanner;
-import javax.sound.sampled.*;
+import javax.swing.*;
+import java.awt.*;
 
 public class Main {
 
-    public static void main(String[] args) throws UnsupportedAudioFileException, IOException, LineUnavailableException{
+    public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
 
-        File file = new File("UP.wav");
-        AudioInputStream audioStream = AudioSystem.getAudioInputStream(file);
-        Clip clip = AudioSystem.getClip();
-        clip.open(audioStream);
+        // JFrame = a GUI window to add components to
 
-        clip.start(); // runs as a background thread. so the script will be terminated, once the code is done
+        /*
+        JFrame frame = new JFrame();  // creates a frame
 
-        String response = "";
+        frame.setVisible(true); // makes the frame visible
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // end the script once user closes window
+        frame.setSize(512, 512); // sets resolution of a frame
+        frame.setResizable(false); // prevents frame from being resized
+        frame.setTitle("delsix's lab"); // sets title of a frame
 
-        while(!response.equals("Q")){
-            System.out.println("R - Restart, P - Play, S - Stop, Q - Quit");
-            response = scanner.next().toUpperCase(Locale.ROOT);
-            switch(response){
-                case("R") -> clip.setMicrosecondPosition(0);
-                case("P") -> clip.start();
-                case("S") -> clip.stop();
-                case("Q") -> System.out.println("Bye :)");
-                default -> System.out.println("Not a valid response");
-            }
-        }
+        ImageIcon image = new ImageIcon("Dels1x.png"); // create an image icon
+        frame.setIconImage(image.getImage()); // change icon of frame
+        frame.getContentPane().setBackground(new Color(0xFF33FF));
+         */
+
+
+        new MyFrame();
+
 
     }
 }
