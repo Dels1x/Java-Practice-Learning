@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="45. FileWriter (write a file)">
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="47. FileReader (read a file)">
+      <change afterPath="$PROJECT_DIR$/UP.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,21 +26,24 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="286rMnIxeXOxCR5s4hglEd9KLIs" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\38099\IdeaProjects\BroCode\src" />
@@ -104,20 +109,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00019" summary="12. for loop">
-      <created>1652967264117</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1652967264117</updated>
-    </task>
-    <task id="LOCAL-00020" summary="14. nested loops">
-      <created>1653505461609</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1653505461609</updated>
     </task>
     <task id="LOCAL-00021" summary="14. nested loops">
       <created>1653505535428</created>
@@ -448,7 +439,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654273678788</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="46. FileReader (read a file)">
+      <created>1654273950022</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1654273950022</updated>
+    </task>
+    <task id="LOCAL-00069" summary="47. FileReader (read a file)">
+      <created>1654273965718</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1654273965718</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -463,8 +468,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="27. constructors" />
-    <MESSAGE value="28. variable scope" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="29. overloaded constructors" />
     <MESSAGE value="30. toString method" />
     <MESSAGE value="3rd project done: math game" />
@@ -488,7 +492,9 @@
     <MESSAGE value="44. exception handling" />
     <MESSAGE value="45. File class" />
     <MESSAGE value="45. FileWriter (write a file)" />
-    <option name="LAST_COMMIT_MESSAGE" value="45. FileWriter (write a file)" />
+    <MESSAGE value="46. FileReader (read a file)" />
+    <MESSAGE value="47. FileReader (read a file)" />
+    <option name="LAST_COMMIT_MESSAGE" value="47. FileReader (read a file)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
