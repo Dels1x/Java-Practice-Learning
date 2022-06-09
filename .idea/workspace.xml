@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="54. FlowLayout">
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="56. LayeredPane">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -108,13 +108,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00028" summary="20. 2D ArrayList">
-      <created>1653578326202</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1653578326202</updated>
     </task>
     <task id="LOCAL-00029" summary="2nd JAVA project done. using what I learned in 11-20th lesson">
       <created>1653599845214</created>
@@ -452,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654706962590</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="55. GridLayout">
+      <created>1654767484962</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1654767484962</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -468,8 +468,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="35. method overriding" />
-    <MESSAGE value="36. super keyword" />
     <MESSAGE value="37. abstraction" />
     <MESSAGE value="38. access modifiers" />
     <MESSAGE value="39. Encapsulation" />
@@ -493,7 +491,9 @@
     <MESSAGE value="52. buttons" />
     <MESSAGE value="53. BorderLayout" />
     <MESSAGE value="54. FlowLayout" />
-    <option name="LAST_COMMIT_MESSAGE" value="54. FlowLayout" />
+    <MESSAGE value="55. GridLayout" />
+    <MESSAGE value="56. LayeredPane" />
+    <option name="LAST_COMMIT_MESSAGE" value="56. LayeredPane" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
