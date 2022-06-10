@@ -5,16 +5,14 @@ import java.awt.*;
 
 public class NewWindow {
     JFrame frame = new JFrame();
-    JLabel label = new JLabel("Hi, this is the new window! :)");
+    JLabel label = new JLabel("Hi mate :)");
 
     NewWindow(){
+        frame.setSize(new Dimension(500,500));
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(new Dimension(420, 420));
-        frame.setLayout(null);
+        frame.setLayout(new FlowLayout(FlowLayout.CENTER));
         frame.setVisible(true);
 
-        label.setBounds(20, 80, 400, 80);
-        label.setFont(new Font("Consolas", Font.PLAIN, 16));
         frame.add(label);
     }
 }

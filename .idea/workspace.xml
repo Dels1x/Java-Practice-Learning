@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="56. LayeredPane">
-      <change afterPath="$PROJECT_DIR$/src/projects/HowToOpenANewWindow/LaunchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/projects/HowToOpenANewWindow/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/projects/HowToOpenANewWindow/NewWindow.java" afterDir="false" />
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="57. open a new GUI window">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HowToOpenANewWindow/LaunchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HowToOpenANewWindow/LaunchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HowToOpenANewWindow/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HowToOpenANewWindow/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HowToOpenANewWindow/NewWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HowToOpenANewWindow/NewWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,8 +104,8 @@
       <item itemvalue="Application.A" />
       <item itemvalue="Application.AdventureGame" />
       <item itemvalue="Application.Calculator" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.HowToOpenANewWindow" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.MathGame" />
       <item itemvalue="Application.PersonalArraylist" />
     </list>
@@ -119,13 +118,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00030" summary="21. for-each loop">
-      <created>1653648475213</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1653648475214</updated>
     </task>
     <task id="LOCAL-00031" summary="22. methods">
       <created>1653649905602</created>
@@ -463,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654772997487</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="57. open a new GUI window">
+      <created>1654775895321</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1654775895321</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -479,7 +478,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="37. abstraction" />
     <MESSAGE value="38. access modifiers" />
     <MESSAGE value="39. Encapsulation" />
     <MESSAGE value="40. copy objects" />
@@ -504,7 +502,8 @@
     <MESSAGE value="54. FlowLayout" />
     <MESSAGE value="55. GridLayout" />
     <MESSAGE value="56. LayeredPane" />
-    <option name="LAST_COMMIT_MESSAGE" value="56. LayeredPane" />
+    <MESSAGE value="57. open a new GUI window" />
+    <option name="LAST_COMMIT_MESSAGE" value="57. open a new GUI window" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

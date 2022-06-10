@@ -8,32 +8,32 @@ import java.awt.event.ActionListener;
 public class LaunchPage implements ActionListener {
 
     JFrame frame = new JFrame();
-    JButton myButton = new JButton("Open a new window");
+    JButton button = new JButton("Open a new window");
+    JButton exitButton = new JButton("Exit the window");
 
-    LaunchPage() {
-
+    LaunchPage(){
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(new Dimension(420, 420));
-        frame.setLayout(null);
+        frame.setSize(new Dimension(500, 500));
         frame.setVisible(true);
+        frame.setLayout(null);
 
-        myButton.setBounds(100, 160, 200, 40);
-        myButton.setFocusable(false);
-        myButton.addActionListener(this);
+        button.setFocusable(false);
+        button.setBounds(87, 120, 300, 200);
+        button.addActionListener(this);
 
-        frame.add(myButton);
+        exitButton.setEnabled(false);
 
+        frame.add(button);
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        if(e.getSource() == myButton){
+        NewWindow newWindow;
+        if (e.getSource() == button) {
 
-            // 2 ways we can use to prevent user from creation of infinite amount of windows
-
-            // myButton.setEnabled(false); // disables the button
-            frame.dispose(); // exits the frame window
-            NewWindow myWindow = new NewWindow();
+            button.setEnabled(false);
+            exitButton.setEnabled(true);
+            newWindow = new NewWindow();
         }
     }
 }
