@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="57. open a new GUI window">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/HowToOpenANewWindow/LaunchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HowToOpenANewWindow/LaunchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/HowToOpenANewWindow/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HowToOpenANewWindow/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/HowToOpenANewWindow/NewWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HowToOpenANewWindow/NewWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
       <recent name="C:\Users\38099\IdeaProjects\BroCode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HowToOpenANewWindow">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="A" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="package1.A" />
       <module name="BroCode" />
@@ -118,13 +117,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00031" summary="22. methods">
-      <created>1653649905602</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1653649905602</updated>
     </task>
     <task id="LOCAL-00032" summary="23. overloaded methods">
       <created>1653653476438</created>
@@ -462,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654775895321</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="57. open a new GUI window">
+      <created>1654879613867</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1654879613868</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
