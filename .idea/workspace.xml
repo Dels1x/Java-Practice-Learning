@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="59. textfield">
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="60. checkbox">
+      <change afterPath="$PROJECT_DIR$/src/friends.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/Randomizer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/Randomizer/MyFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,13 +119,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00034" summary="25. final keywoard">
-      <created>1653654840961</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1653654840961</updated>
     </task>
     <task id="LOCAL-00035" summary="26. OOP">
       <created>1653721364442</created>
@@ -461,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654953254109</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="60. checkbox">
+      <created>1654955976908</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1654955976909</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -477,7 +479,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="39. Encapsulation" />
     <MESSAGE value="40. copy objects" />
     <MESSAGE value="4th project progress. Created all needed classes" />
     <MESSAGE value="4th project progress. Set up entity and player class" />
@@ -502,7 +503,8 @@
     <MESSAGE value="56. LayeredPane" />
     <MESSAGE value="57. open a new GUI window" />
     <MESSAGE value="59. textfield" />
-    <option name="LAST_COMMIT_MESSAGE" value="59. textfield" />
+    <MESSAGE value="60. checkbox" />
+    <option name="LAST_COMMIT_MESSAGE" value="60. checkbox" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

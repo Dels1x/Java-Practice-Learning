@@ -7,9 +7,15 @@ public class Main {
     public static void main(String[] args) {
 
 
-        // JCheckBox = a GUI component that can be selected or deselected
+        // static = modifier. all objects of a class share static variables/methods. if static var change in 1 objects
+        //          it changes in others too
 
-        MyFrame frame = new MyFrame();
+        friends friend = new friends();
+        friends frie = new friends();
+        System.out.println(friend.i);
+        friend.add(50);
+        System.out.println(frie.i);
 
     }
 }
+
