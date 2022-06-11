@@ -5,52 +5,32 @@ import java.awt.event.ActionListener;
 
 public class MyFrame extends JFrame implements ActionListener {
 
-    JTextField nameTextField;
-    JTextField passwordTextField;
-    JLabel nameLabel;
-    JLabel passwordLabel;
+    JCheckBox checkBox;
     JButton submitButton;
+    ImageIcon xIcon;
+    ImageIcon checkIcon;
 
     MyFrame() {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setLayout(new FlowLayout(FlowLayout.RIGHT));
-        this.setSize(new Dimension(720, 220));
-        this.getContentPane().setBackground(Color.black);
+        this.setLayout(new FlowLayout());
 
 
-        nameLabel = new JLabel("Enter your name: ");
-        passwordLabel = new JLabel("Enter your password: ");
-        nameLabel.setFont(new Font("Consolas", Font.PLAIN, 36));
-        passwordLabel.setFont(new Font("Consolas", Font.PLAIN, 36));
-        nameLabel.setForeground(Color.white);
-        passwordLabel.setForeground(Color.white);
-
-        nameTextField = new JTextField(); // create a nameTextField
-        passwordTextField = new JTextField();
+        checkBox = new JCheckBox("I'm not a gay");
         submitButton = new JButton("Submit");
+        xIcon = new ImageIcon("x-mark-3-64.png");
+        checkIcon = new ImageIcon("ok-64.png");
+
         submitButton.addActionListener(this);
-        submitButton.setSize(new Dimension(700, 50));
 
-        nameTextField.setPreferredSize(new Dimension(250, 50)); // set size
-        nameTextField.setFont(new Font("Consolas", Font.PLAIN, 36)); // set font
-        nameTextField.setForeground(new Color(0x00FFFF)); // set font color
-        nameTextField.setBackground(Color.black); // set background color
-        nameTextField.setCaretColor(Color.white); // set this line when you type something color
-        nameTextField.setText(""); // set default text
-
-        passwordTextField.setPreferredSize(new Dimension(250, 50)); // set size
-        passwordTextField.setFont(new Font("Consolas", Font.PLAIN, 36)); // set font
-        passwordTextField.setForeground(new Color(0x00FFFF)); // set font color
-        passwordTextField.setBackground(Color.black); // set background color
-        passwordTextField.setCaretColor(Color.white); // set this line when you type something color
-        passwordTextField.setText(""); // set default text
+        checkBox.setFocusable(false);
+        checkBox.setFont(new Font("Consolas", Font.BOLD, 25));
+        checkBox.setIcon(xIcon);
+        checkBox.setSelectedIcon(checkIcon);
 
 
-        this.add(nameLabel);
-        this.add(nameTextField);
-        this.add(passwordLabel);
-        this.add(passwordTextField);
         this.add(submitButton);
+        this.add(checkBox);
+        this.pack();
         this.setVisible(true);
     }
 
@@ -58,12 +38,7 @@ public class MyFrame extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         if(e.getSource() == submitButton) {
-            nameTextField.setEditable(false); // make nameTextField uneditable
-            passwordTextField.setEditable(false);
-            submitButton.setEnabled(false); // makes button disabled
-            System.out.println("Your name is: "+nameTextField.getText());
-            System.out.println("Your password is: "+passwordTextField.getText());
+            System.out.println(checkBox.isSelected()); // returns true  or false, depending on if checkbox is the selected or not
         }
     }
-
 }
