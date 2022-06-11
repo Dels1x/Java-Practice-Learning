@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="60. checkbox">
-      <change afterPath="$PROJECT_DIR$/src/friends.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/projects/Randomizer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/projects/Randomizer/MyFrame.java" afterDir="false" />
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="33. static keyword (repeat)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/Randomizer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/Randomizer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/Randomizer/MyFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/Randomizer/MyFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
       <recent name="C:\Users\38099\IdeaProjects\BroCode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Randomizer">
     <configuration name="A" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="package1.A" />
       <module name="BroCode" />
@@ -101,12 +100,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Randomizer" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="projects.Randomizer.Main" />
+      <module name="BroCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.A" />
       <item itemvalue="Application.AdventureGame" />
       <item itemvalue="Application.Calculator" />
       <item itemvalue="Application.HowToOpenANewWindow" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Randomizer" />
       <item itemvalue="Application.MathGame" />
       <item itemvalue="Application.PersonalArraylist" />
     </list>
@@ -119,13 +126,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00035" summary="26. OOP">
-      <created>1653721364442</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1653721364442</updated>
     </task>
     <task id="LOCAL-00036" summary="27. constructors">
       <created>1653729554729</created>
@@ -463,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654955976909</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="33. static keyword (repeat)">
+      <created>1654958331163</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1654958331163</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -479,7 +486,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="40. copy objects" />
     <MESSAGE value="4th project progress. Created all needed classes" />
     <MESSAGE value="4th project progress. Set up entity and player class" />
     <MESSAGE value="4th project progress. Set up all classes and first fight got successfully. Encapsulation used in the right way" />
@@ -504,7 +510,8 @@
     <MESSAGE value="57. open a new GUI window" />
     <MESSAGE value="59. textfield" />
     <MESSAGE value="60. checkbox" />
-    <option name="LAST_COMMIT_MESSAGE" value="60. checkbox" />
+    <MESSAGE value="33. static keyword (repeat)" />
+    <option name="LAST_COMMIT_MESSAGE" value="33. static keyword (repeat)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
