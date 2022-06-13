@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="33. static keyword (repeat)">
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="5th project done. Randomizer app">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/Randomizer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/Randomizer/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/Randomizer/MyFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/Randomizer/MyFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
       <recent name="C:\Users\38099\IdeaProjects\BroCode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Randomizer">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="A" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="package1.A" />
       <module name="BroCode" />
@@ -126,13 +125,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00036" summary="27. constructors">
-      <created>1653729554729</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1653729554729</updated>
     </task>
     <task id="LOCAL-00037" summary="28. variable scope">
       <created>1653730595404</created>
@@ -470,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654958331163</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="5th project done. Randomizer app">
+      <created>1654962054642</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1654962054642</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -486,7 +485,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="4th project progress. Created all needed classes" />
     <MESSAGE value="4th project progress. Set up entity and player class" />
     <MESSAGE value="4th project progress. Set up all classes and first fight got successfully. Encapsulation used in the right way" />
     <MESSAGE value="4th project done. Nemnogo krivo i obrezanno, no soidet" />
@@ -511,7 +509,8 @@
     <MESSAGE value="59. textfield" />
     <MESSAGE value="60. checkbox" />
     <MESSAGE value="33. static keyword (repeat)" />
-    <option name="LAST_COMMIT_MESSAGE" value="33. static keyword (repeat)" />
+    <MESSAGE value="5th project done. Randomizer app" />
+    <option name="LAST_COMMIT_MESSAGE" value="5th project done. Randomizer app" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
