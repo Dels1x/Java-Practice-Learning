@@ -1,16 +1,19 @@
-import javax.swing.*;
-import javax.swing.border.Border;
 import java.awt.*;
+import javax.swing.*;
 
 public class Main {
+    public static void main(String [] args) {
 
-    public static void main(String[] args) {
+        JFrame frame = new JFrame();
+        JPanel panel = new JPanel();
+        panel.setPreferredSize(new Dimension(100, 100));
+        panel.setBackground(Color.RED);
 
-        // JSlider = GUI component that lets user enter a value
-        //           by using an adjustable sliding knob on track
-
-        SliderDemo sliderDemo = new SliderDemo();
-
+        frame.setLayout(new GridBagLayout());
+        frame.add(panel, new GridBagConstraints());
+        frame.setSize(new Dimension(800, 800));
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setVisible(true);
 
     }
 }
