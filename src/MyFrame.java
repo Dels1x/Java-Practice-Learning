@@ -46,6 +46,8 @@ public class MyFrame extends JFrame implements ActionListener {
         this.pack();
         this.setVisible(true);
 
+        // i'm noob
+
 
     }
 
