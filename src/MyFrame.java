@@ -5,44 +5,26 @@ import java.awt.event.ActionListener;
 
 public class MyFrame extends JFrame implements ActionListener {
 
-    JRadioButton intelButton;
-    JRadioButton nvidiaButton;
-    JRadioButton amdButton;
-    ButtonGroup vendors;
-    ImageIcon intelIcon = new ImageIcon("intel.png");
-    ImageIcon amdIcon = new ImageIcon("amd.png");
-    ImageIcon nvidiaIcon = new ImageIcon("nvidia.png");
-
+    JComboBox<String> comboBox;
+    String[] genders;
 
     MyFrame() {
         this.setLayout(new FlowLayout());
         this.setSize(new Dimension(800, 600));
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        vendors = new ButtonGroup();
-        intelButton = new JRadioButton("Intel");
-        nvidiaButton = new JRadioButton("NVIDIA");
-        amdButton = new JRadioButton("AMD");
+        genders = new String[]{"male", "female", "other"};
+        comboBox = new JComboBox<>(genders); // put only Wrapper datatypes arrays here (Integer[] instead of int[])
+        comboBox.addActionListener(this);
+        comboBox.setEditable(true); // set editable (bad idea)
+        System.out.println(comboBox.getItemCount()); // get amount of items
+        comboBox.addItem("genderfluid helisexual"); // add item to the end of the list
+        comboBox.insertItemAt("genius", 0); // insert item at index 0
+        comboBox.setSelectedIndex(0); // selected item by default
+        comboBox.removeItemAt(2); // delete women
+        comboBox.removeAllItems(); // removes all items from the combobox
 
-        intelButton.setIcon(intelIcon);
-        amdButton.setIcon(amdIcon);
-        nvidiaButton.setIcon(nvidiaIcon);
-
-        intelButton.setFocusable(false);
-        amdButton.setFocusable(false);
-        nvidiaButton.setFocusable(false);
-
-        intelButton.addActionListener(this);
-        amdButton.addActionListener(this);
-        nvidiaButton.addActionListener(this);
-
-        vendors.add(intelButton);
-        vendors.add(nvidiaButton);
-        vendors.add(amdButton);
-
-        this.add(intelButton);
-        this.add(nvidiaButton);
-        this.add(amdButton);
+        this.add(comboBox);
         this.pack();
         this.setVisible(true);
 
@@ -53,14 +35,9 @@ public class MyFrame extends JFrame implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        if(e.getSource() == amdButton) {
-            System.out.println("#AMDTASHI");
-        }
-        else if(e.getSource() == nvidiaButton) {
-            System.out.println("GTX 1050 Ti lover?");
-        }
-        else if(e.getSource() == intelButton) {
-            System.out.println("U tebya siniy probitiy anus");
+        if(e.getSource() == comboBox) {
+            System.out.println("You are "+comboBox.getSelectedItem());
+            System.out.println("You are "+genders[comboBox.getSelectedIndex()]);
         }
     }
 }
