@@ -5,10 +5,13 @@ import java.awt.event.ActionListener;
 
 public class MyFrame extends JFrame implements ActionListener {
 
-    JCheckBox checkbox;
-    JButton button;
-    ImageIcon check = new ImageIcon("ok-64.png");
-    ImageIcon x = new ImageIcon("x-mark-3-64.png");
+    JRadioButton intelButton;
+    JRadioButton nvidiaButton;
+    JRadioButton amdButton;
+    ButtonGroup vendors;
+    ImageIcon intelIcon = new ImageIcon("intel.png");
+    ImageIcon amdIcon = new ImageIcon("amd.png");
+    ImageIcon nvidiaIcon = new ImageIcon("nvidia.png");
 
 
     MyFrame() {
@@ -16,16 +19,22 @@ public class MyFrame extends JFrame implements ActionListener {
         this.setSize(new Dimension(800, 600));
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        checkbox = new JCheckBox("Are you a gae?");
-        button = new JButton("Submit");
+        vendors = new ButtonGroup();
+        intelButton = new JRadioButton("Intel");
+        nvidiaButton = new JRadioButton("NVIDIA");
+        amdButton = new JRadioButton("AMD");
 
-        checkbox.setSelectedIcon(check);
-        checkbox.setIcon(x);
+        intelButton.setIcon(intelIcon);
+        amdButton.setIcon(amdIcon);
+        nvidiaButton.setIcon(nvidiaIcon);
 
-        button.addActionListener(this);
+        vendors.add(intelButton);
+        vendors.add(nvidiaButton);
+        vendors.add(amdButton);
 
-        this.add(button);
-        this.add(checkbox);
+        this.add(intelButton);
+        this.add(nvidiaButton);
+        this.add(amdButton);
         this.pack();
         this.setVisible(true);
 
@@ -34,13 +43,14 @@ public class MyFrame extends JFrame implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        if(e.getSource() == button) {
-            if(checkbox.isSelected()) {
-                System.out.println("You are a gay? What the fuck");
-            }
-            else{
-                System.out.println("You are not a gay. Congratulations");
-            }
+        if(e.getSource() == amdButton) {
+            System.out.println("#AMDTASHI");
+        }
+        else if(e.getSource() == nvidiaButton) {
+            System.out.println("GTX 1050 Ti lover?");
+        }
+        else if(e.getSource() == intelButton) {
+            System.out.println("U tebya siniy probitiy anus");
         }
     }
 }
