@@ -6,9 +6,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // JComboBox = A component that combines a button or editable field and a drop-down list
+        // JSlider = GUI component that lets user enter a value
+        //           by using an adjustable sliding knob on track
 
-        new MyFrame();
+        SliderDemo sliderDemo = new SliderDemo();
 
 
     }
