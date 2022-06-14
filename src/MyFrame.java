@@ -3,6 +3,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
+import java.io.File;
 
 public class MyFrame extends JFrame implements ActionListener {
 
@@ -82,24 +83,14 @@ public class MyFrame extends JFrame implements ActionListener {
         }
         else if(e.getSource() == loadItem) {
             System.out.println("Loading file.");
-            try {
-                Thread.sleep(250);
-            } catch (InterruptedException ex) {
-                throw new RuntimeException(ex);
-            }
-            System.out.println("Loading file..");
-            try {
-                Thread.sleep(250);
-            } catch (InterruptedException ex) {
-                throw new RuntimeException(ex);
-            }
-            System.out.println("Loading file...");
-            try {
-                Thread.sleep(250);
-            } catch (InterruptedException ex) {
-                throw new RuntimeException(ex);
-            }
+            JFileChooser fileChooser = new JFileChooser();
+            fileChooser.setCurrentDirectory(new File(".")); // sets default directory the package of the project
 
+            int response = fileChooser.showOpenDialog(null); // selects file to open. returns 1 if you cancel//click exit, 0 if you choose a file
+            if(response == 0) {
+                File file = new File(fileChooser.getSelectedFile().getAbsolutePath());
+                System.out.println(file);
+            }
             System.out.println("File loaded");
         }
     }
