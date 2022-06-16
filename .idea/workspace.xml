@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="CAULCULATOR!!!">
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="67. color chooser">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/Calculator/MyFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/Calculator/MyFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
       <recent name="C:\Users\38099\IdeaProjects\BroCode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.projects.Calculator.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="A" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="package1.A" />
       <module name="BroCode" />
@@ -126,13 +126,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00046" summary="35. method overriding">
-      <created>1653923454434</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1653923454434</updated>
     </task>
     <task id="LOCAL-00047" summary="35. method overriding">
       <created>1653923506905</created>
@@ -470,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655392330449</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="CAULCULATOR!!!">
+      <created>1655410409556</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1655410409557</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -486,7 +486,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="46. FileReader (read a file)" />
     <MESSAGE value="47. FileReader (read a file)" />
     <MESSAGE value="48. audio" />
     <MESSAGE value="49. GUI" />
@@ -511,7 +510,8 @@
     <MESSAGE value="66. select a file" />
     <MESSAGE value="100th commit&#10;&#10;i'm gonna make calculator (solo). yea" />
     <MESSAGE value="CAULCULATOR!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="CAULCULATOR!!!" />
+    <MESSAGE value="67. color chooser" />
+    <option name="LAST_COMMIT_MESSAGE" value="67. color chooser" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
