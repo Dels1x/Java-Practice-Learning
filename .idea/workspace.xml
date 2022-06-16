@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="65. menu bar">
-      <change afterPath="$PROJECT_DIR$/text.txt" afterDir="false" />
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="100th commit&#10;&#10;i'm gonna make calculator (solo). yea">
+      <change afterPath="$PROJECT_DIR$/src/projects/Calculator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/Calculator/MyFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/TextCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +54,7 @@
       <recent name="C:\Users\38099\IdeaProjects\BroCode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.projects.Calculator.Main">
     <configuration name="A" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="package1.A" />
       <module name="BroCode" />
@@ -62,13 +64,6 @@
     </configuration>
     <configuration name="AdventureGame" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="projects.AdventureGame.Main" />
-      <module name="BroCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Calculator" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="projects.Calculator" />
       <module name="BroCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,10 +104,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="projects.Calculator.Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="projects.Calculator.Main" />
+      <module name="BroCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.A" />
       <item itemvalue="Application.AdventureGame" />
-      <item itemvalue="Application.Calculator" />
+      <item itemvalue="Application.projects.Calculator.Main" />
       <item itemvalue="Application.HowToOpenANewWindow" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Randomizer" />
@@ -128,13 +130,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00044" summary="33. static  keyword">
-      <created>1653908163425</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1653908163425</updated>
     </task>
     <task id="LOCAL-00045" summary="34. inheritance">
       <created>1653909161813</created>
@@ -472,7 +467,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655201280066</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="66. select a file">
+      <created>1655204970360</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1655204970361</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -488,7 +490,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="44. exception handling" />
     <MESSAGE value="45. File class" />
     <MESSAGE value="45. FileWriter (write a file)" />
     <MESSAGE value="46. FileReader (read a file)" />
@@ -513,17 +514,8 @@
     <MESSAGE value="Centered panel" />
     <MESSAGE value="GridLayout repeat" />
     <MESSAGE value="65. menu bar" />
-    <option name="LAST_COMMIT_MESSAGE" value="65. menu bar" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.util.InputMismatchException" package="java.util" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="66. select a file" />
+    <option name="LAST_COMMIT_MESSAGE" value="66. select a file" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
