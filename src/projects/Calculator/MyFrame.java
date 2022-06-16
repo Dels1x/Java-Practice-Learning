@@ -23,7 +23,7 @@ public class MyFrame extends JFrame implements ActionListener {
 
     MyFrame() {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setSize(new Dimension(316, 489));
+        this.setSize(new Dimension(366, 489));
         this.setResizable(false);
         this.setLayout(null);
         this.getContentPane().setBackground(bg);
@@ -31,12 +31,12 @@ public class MyFrame extends JFrame implements ActionListener {
 
         panelButtons = new JPanel();
         panelButtons.setLayout(new GridLayout(4, 4));
-        panelButtons.setBounds(0, 110, 300, 340);
+        panelButtons.setBounds(0, 110, 350, 340);
         panelButtons.setBackground(bg);
 
         panelResult = new JPanel();
         panelResult.setLayout(new BorderLayout());
-        panelResult.setBounds(0, 0, 300, 110);
+        panelResult.setBounds(0, 0, 350, 110);
         panelResult.setBackground(new Color(0x0F0F0F));
 
         labelResult = new JLabel("0");
