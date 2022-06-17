@@ -1,62 +1,51 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
+import java.awt.event.*;
 
 
-public class MyFrame extends JFrame implements ActionListener, KeyListener {
+public class MyFrame extends JFrame implements MouseListener {
 
 
     JLabel label;
-    ImageIcon ufoIcon;
 
 
     MyFrame() {
-        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setLayout(null);
         this.setSize(500, 500);
-        this.addKeyListener(this);
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.addMouseListener(this);
 
 
-        ufoIcon = new ImageIcon("ufo.png");
-        label = new JLabel();
-        label.setBounds(0, 0, 64, 64);
-        label.setBackground(Color.lightGray);
-        label.setOpaque(true);
-        label.setIcon(ufoIcon);
+        label = new JLabel("You just started work of this program!");
+        label.setFont(new Font("Consolas", Font.PLAIN, 64));
 
 
         this.add(label);
+        this.pack();
         this.setVisible(true);
     }
 
-
     @Override
-    public void actionPerformed(ActionEvent e) {
+    public void mouseClicked(MouseEvent e) {
 
     }
 
     @Override
-    public void keyTyped(KeyEvent e) { // invoked when a key is typed. Uses KeyChar, char output
+    public void mousePressed(MouseEvent e) {
+        label.setText("You pressed the button of mouse!");
     }
 
     @Override
-    public void keyPressed(KeyEvent e) { // invoked when a physical key is pressed down. Uses KeyCode, int output
-        switch(e.getKeyCode()) {
-            case 87 -> label.setLocation( label.getX(), label.getY()-8);
-            case 65 -> label.setLocation( label.getX()-8, label.getY());
-            case 83 -> label.setLocation( label.getX(), label.getY()+8);
-            case 68 -> label.setLocation( label.getX()+8, label.getY());
-            case 81 -> label.setSize(label.getWidth()+2, label.getHeight()+2);
-            case 69 -> label.setSize(label.getWidth()-2, label.getHeight()-2);
-        }
+    public void mouseReleased(MouseEvent e) {
+        label.setText("You released the button of your mouse!");
     }
 
     @Override
-    public void keyReleased(KeyEvent e) {  // called whenever a button is released
-        System.out.println("You released a key character: " + e.getKeyChar());
-        System.out.println("You released a key character: " + e.getKeyCode());
+    public void mouseEntered(MouseEvent e) {
+        label.setText("Your cursor entered the window!");
+    }
+
+    @Override
+    public void mouseExited(MouseEvent e) {
+        label.setText("Your curser exited the window!");
     }
 }
