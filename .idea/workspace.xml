@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="more width to calculator">
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="color chooser repeat">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyFrame.java" afterDir="false" />
     </list>
@@ -126,13 +126,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00049" summary="37. abstraction">
-      <created>1653942568545</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1653942568545</updated>
     </task>
     <task id="LOCAL-00050" summary="37. abstraction">
       <created>1653942579345</created>
@@ -470,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655412650626</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="color chooser repeat">
+      <created>1655466767584</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1655466767585</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -486,7 +486,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="48. audio" />
     <MESSAGE value="49. GUI" />
     <MESSAGE value="50. labels" />
     <MESSAGE value="51. panels" />
@@ -511,7 +510,8 @@
     <MESSAGE value="CAULCULATOR!!!" />
     <MESSAGE value="67. color chooser" />
     <MESSAGE value="more width to calculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="more width to calculator" />
+    <MESSAGE value="color chooser repeat" />
+    <option name="LAST_COMMIT_MESSAGE" value="color chooser repeat" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
