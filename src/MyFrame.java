@@ -23,6 +23,8 @@ public class MyFrame extends JFrame implements ActionListener, KeyListener {
         ufoIcon = new ImageIcon("ufo.png");
         label = new JLabel();
         label.setBounds(0, 0, 64, 64);
+        label.setBackground(Color.lightGray);
+        label.setOpaque(true);
         label.setIcon(ufoIcon);
 
 
@@ -38,18 +40,18 @@ public class MyFrame extends JFrame implements ActionListener, KeyListener {
 
     @Override
     public void keyTyped(KeyEvent e) { // invoked when a key is typed. Uses KeyChar, char output
-        switch(Character.toLowerCase(e.getKeyChar())) {
-            case 'w' -> label.setLocation( label.getX(), label.getY()-8);
-            case 'a' -> label.setLocation( label.getX()-8, label.getY());
-            case 's' -> label.setLocation( label.getX(), label.getY()+8);
-            case 'd' -> label.setLocation( label.getX()+8, label.getY());
-        }
     }
 
     @Override
     public void keyPressed(KeyEvent e) { // invoked when a physical key is pressed down. Uses KeyCode, int output
-        System.out.println("You pressed a key character: " + e.getKeyChar());
-        System.out.println("You pressed a key character: " + e.getKeyCode());
+        switch(e.getKeyCode()) {
+            case 87 -> label.setLocation( label.getX(), label.getY()-8);
+            case 65 -> label.setLocation( label.getX()-8, label.getY());
+            case 83 -> label.setLocation( label.getX(), label.getY()+8);
+            case 68 -> label.setLocation( label.getX()+8, label.getY());
+            case 81 -> label.setSize(label.getWidth()+2, label.getHeight()+2);
+            case 69 -> label.setSize(label.getWidth()-2, label.getHeight()-2);
+        }
     }
 
     @Override
