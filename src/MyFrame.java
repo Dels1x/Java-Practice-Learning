@@ -19,8 +19,6 @@ public class MyFrame extends JFrame implements ActionListener {
         button = new JButton("Pick a color");
         button.addActionListener(this);
         label = new JLabel("This is your color :D");
-        label.setBackground(Color.white);
-        label.setOpaque(true);
         label.setFont(new Font("Consolas", Font.BOLD, 32));
 
 
@@ -34,8 +32,8 @@ public class MyFrame extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         if(e.getSource() == button) {
-            Color color = JColorChooser.showDialog(null, "Pick a color", Color.black);
-            label.setBackground(color);
+            Color color = JColorChooser.showDialog(null, "Pick a color", Color.white);
+            this.getContentPane().setBackground(color);
         }
     }
 }
