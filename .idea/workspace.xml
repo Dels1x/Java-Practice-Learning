@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="69. MouseListener">
-      <change afterPath="$PROJECT_DIR$/src/DragPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="70. key bindings">
+      <change afterPath="$PROJECT_DIR$/src/projects/Clicker/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/Clicker/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,7 @@
       <recent name="C:\Users\38099\IdeaProjects\BroCode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.MORGEN">
     <configuration name="A" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="package1.A" />
       <module name="BroCode" />
@@ -70,6 +68,13 @@
     </configuration>
     <configuration name="HowToOpenANewWindow" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="projects.HowToOpenANewWindow.Main" />
+      <module name="BroCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MORGEN" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="projects.Clicker.Main" />
       <module name="BroCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,6 +121,7 @@
       <item itemvalue="Application.projects.Calculator.Main" />
       <item itemvalue="Application.HowToOpenANewWindow" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.MORGEN" />
       <item itemvalue="Application.Randomizer" />
       <item itemvalue="Application.MathGame" />
       <item itemvalue="Application.PersonalArraylist" />
@@ -129,13 +135,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00053" summary="39. Encapsulation">
-      <created>1654008855957</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1654008855957</updated>
     </task>
     <task id="LOCAL-00054" summary="40. copy objects">
       <created>1654009632328</created>
@@ -473,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655492008567</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="70. key bindings">
+      <created>1655636501323</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1655636501324</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -489,7 +495,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="52. buttons" />
     <MESSAGE value="53. BorderLayout" />
     <MESSAGE value="54. FlowLayout" />
     <MESSAGE value="55. GridLayout" />
@@ -514,7 +519,8 @@
     <MESSAGE value="68. KeyListener" />
     <MESSAGE value="68. KeyListener (repeat)" />
     <MESSAGE value="69. MouseListener" />
-    <option name="LAST_COMMIT_MESSAGE" value="69. MouseListener" />
+    <MESSAGE value="70. key bindings" />
+    <option name="LAST_COMMIT_MESSAGE" value="70. key bindings" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
