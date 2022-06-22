@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="hernya">
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="75. HashMap">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -134,13 +135,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00055" summary="40. copy objects">
-      <created>1654009653579</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1654009653579</updated>
     </task>
     <task id="LOCAL-00056" summary="4th project progress. Created all needed classes">
       <created>1654019278436</created>
@@ -478,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655732055004</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="6kyu: Split Strings">
+      <created>1655839934061</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1655839934062</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,8 +495,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="54. FlowLayout" />
-    <MESSAGE value="55. GridLayout" />
     <MESSAGE value="56. LayeredPane" />
     <MESSAGE value="57. open a new GUI window" />
     <MESSAGE value="59. textfield" />
@@ -519,7 +518,9 @@
     <MESSAGE value="69. MouseListener" />
     <MESSAGE value="70. key bindings" />
     <MESSAGE value="hernya" />
-    <option name="LAST_COMMIT_MESSAGE" value="hernya" />
+    <MESSAGE value="6kyu: Split Strings" />
+    <MESSAGE value="75. HashMap" />
+    <option name="LAST_COMMIT_MESSAGE" value="75. HashMap" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

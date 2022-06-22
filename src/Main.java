@@ -1,49 +1,39 @@
-import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Main {
     public static void main(String [] args) {
-        String s1 = "LovePizza";
-        String[] array = solution(s1);
 
-        for(String i : array) {
-            System.out.println(i);
+        // HashMap implemetns the Map interface (need import)
+        // HashMap is similar to ArrayList, but with key-value pairs
+        // stores objects, need to use WrapperClass
+        // ex: (name, email), (username, userID), (country, capital)
+
+        HashMap<String, Integer> RomanNumerals = new HashMap<>();
+
+        // add key and value
+
+        RomanNumerals.put("I", 1);
+        RomanNumerals.put("V", 5);
+        RomanNumerals.put("X", 10);
+        RomanNumerals.put("L", 50);
+        RomanNumerals.put("C", 100);
+        RomanNumerals.put("D", 500);
+        RomanNumerals.put("M", 1000);
+        RomanNumerals.put("DICK", 1337);
+
+        System.out.println(RomanNumerals);
+
+        RomanNumerals.remove("DICK"); // remove from dict
+        System.out.println(RomanNumerals.get("I") + RomanNumerals.get("V"));
+        System.out.println(RomanNumerals.size()); // get size of dict
+        System.out.println(RomanNumerals.containsKey("DICK")); // return true/false based if there is DICK key or not
+
+        // RomanNumerals.clear(); // delete every item from dict
+
+        for (String i : RomanNumerals.keySet()) {
+            System.out.print(i + "\t = ");
+            System.out.println(RomanNumerals.get(i));
         }
-
 
     }
-
-    public static String[] solution(String s) {
-        int arrayLength;
-        if(s.length() % 2 == 0){
-            arrayLength = s.length() / 2;
-        }
-        else{
-            arrayLength = 1 + s.length() / 2;
-        }
-        String[] lettersArray = new String[arrayLength];
-        String str = "";
-        System.out.println("array length: " +arrayLength);
-        for(int i = 0; i < s.length(); i+=2){
-            if(s.length() % 2 == 0) {
-                str = s.substring(i, i+2);
-            }
-            else {
-                if(i+1 == s.length()){
-                    str = s.substring(i) + "_";
-                    System.out.println(s.substring(i) + "_");
-                }
-                else{
-                    str = s.substring(i, i+2);
-                    System.out.println(s.substring(i, i+2));
-                }
-            }
-            lettersArray[i / 2] = str;
-            System.out.println(lettersArray);
-
-        }
-        
-
-        return lettersArray;
-    }
-
 }
