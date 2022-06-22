@@ -3,9 +3,7 @@ import java.util.TreeMap;
 public class Main {
     public static void main(String [] args) {
 
-        // TreeMap is like HashMap but sorted by the way you put balues
-
-        System.out.println(solution(14));
+        System.out.println(s(5));
 
     }
 
@@ -37,6 +35,15 @@ public class Main {
 
         return "";
 
+    }
+
+    public static String s(int num)  {
+        if(num > 0) {
+            return "s" + s(num - 1);
+        }
+        else {
+            return "";
+        }
     }
 }
 

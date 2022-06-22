@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="75. HashMap">
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="TreeMap">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -134,20 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00057" summary="4th project progress. Set up entity and player class">
-      <created>1654022073306</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1654022073306</updated>
-    </task>
-    <task id="LOCAL-00058" summary="4th project progress. Set up all classes and first fight got successfully. Encapsulation used in the right way">
-      <created>1654034035203</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1654034035204</updated>
     </task>
     <task id="LOCAL-00059" summary="4th project done. Nemnogo krivo i obrezanno, no soidet">
       <created>1654078133341</created>
@@ -478,7 +464,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655902526062</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="HashMap">
+      <created>1655905810607</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1655905810607</updated>
+    </task>
+    <task id="LOCAL-00107" summary="TreeMap">
+      <created>1655905824778</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1655905824778</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,8 +494,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="56. LayeredPane" />
-    <MESSAGE value="57. open a new GUI window" />
     <MESSAGE value="59. textfield" />
     <MESSAGE value="60. checkbox" />
     <MESSAGE value="33. static keyword (repeat)" />
@@ -519,7 +517,9 @@
     <MESSAGE value="hernya" />
     <MESSAGE value="6kyu: Split Strings" />
     <MESSAGE value="75. HashMap" />
-    <option name="LAST_COMMIT_MESSAGE" value="75. HashMap" />
+    <MESSAGE value="HashMap" />
+    <MESSAGE value="TreeMap" />
+    <option name="LAST_COMMIT_MESSAGE" value="TreeMap" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
