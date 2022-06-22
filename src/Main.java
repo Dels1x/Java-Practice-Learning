@@ -1,39 +1,41 @@
-import java.util.HashMap;
+import java.util.TreeMap;
 
 public class Main {
     public static void main(String [] args) {
 
-        // HashMap implemetns the Map interface (need import)
-        // HashMap is similar to ArrayList, but with key-value pairs
-        // stores objects, need to use WrapperClass
-        // ex: (name, email), (username, userID), (country, capital)
+        // TreeMap is like HashMap but sorted by the way you put balues
 
-        HashMap<String, Integer> RomanNumerals = new HashMap<>();
+        System.out.println(solution(14));
 
-        // add key and value
+    }
 
-        RomanNumerals.put("I", 1);
-        RomanNumerals.put("V", 5);
-        RomanNumerals.put("X", 10);
-        RomanNumerals.put("L", 50);
-        RomanNumerals.put("C", 100);
-        RomanNumerals.put("D", 500);
-        RomanNumerals.put("M", 1000);
-        RomanNumerals.put("DICK", 1337);
+    public static String solution(int n) {
+        TreeMap<Integer, String> romanNumerals = new TreeMap<>();
 
-        System.out.println(RomanNumerals);
+        if(n > 0) {
 
-        RomanNumerals.remove("DICK"); // remove from dict
-        System.out.println(RomanNumerals.get("I") + RomanNumerals.get("V"));
-        System.out.println(RomanNumerals.size()); // get size of dict
-        System.out.println(RomanNumerals.containsKey("DICK")); // return true/false based if there is DICK key or not
+            romanNumerals.put(1, "I");
+            romanNumerals.put(4, "IV");
+            romanNumerals.put(5, "V");
+            romanNumerals.put(9, "IX");
+            romanNumerals.put(10, "X");
+            romanNumerals.put(40, "XL");
+            romanNumerals.put(50, "L");
+            romanNumerals.put(90, "XC");
+            romanNumerals.put(100, "C");
+            romanNumerals.put(400, "CD");
+            romanNumerals.put(500, "D");
+            romanNumerals.put(900, "CM");
+            romanNumerals.put(1000, "M");
 
-        // RomanNumerals.clear(); // delete every item from dict
-
-        for (String i : RomanNumerals.keySet()) {
-            System.out.print(i + "\t = ");
-            System.out.println(RomanNumerals.get(i));
+            int romanFloor =  romanNumerals.floorKey(n); // floorkey returns the closest lower value possible to get than n
+            if ( n == romanFloor ) {
+                return romanNumerals.get(n);
+            }
+            return romanNumerals.get(romanFloor) + solution(n-romanFloor); // recursion
         }
+
+        return "";
 
     }
 }
