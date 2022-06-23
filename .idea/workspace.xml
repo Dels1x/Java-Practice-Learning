@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="TreeMap">
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="recursion">
+      <change afterPath="$PROJECT_DIR$/src/Fighter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyInteface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -13,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -134,13 +136,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00059" summary="4th project done. Nemnogo krivo i obrezanno, no soidet">
-      <created>1654078133341</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1654078133341</updated>
     </task>
     <task id="LOCAL-00060" summary="41. interface">
       <created>1654168178592</created>
@@ -478,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655905824778</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="recursion">
+      <created>1655906264452</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1655906264452</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +496,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="59. textfield" />
     <MESSAGE value="60. checkbox" />
     <MESSAGE value="33. static keyword (repeat)" />
     <MESSAGE value="5th project done. Randomizer app" />
@@ -519,7 +520,8 @@
     <MESSAGE value="75. HashMap" />
     <MESSAGE value="HashMap" />
     <MESSAGE value="TreeMap" />
-    <option name="LAST_COMMIT_MESSAGE" value="TreeMap" />
+    <MESSAGE value="recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="recursion" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
