@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="recursion">
-      <change afterPath="$PROJECT_DIR$/src/Fighter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyInteface.java" afterDir="false" />
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="80. lambda">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,13 +135,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00060" summary="41. interface">
-      <created>1654168178592</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1654168178593</updated>
     </task>
     <task id="LOCAL-00061" summary="42. polymorphism">
       <created>1654176189290</created>
@@ -480,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655906264452</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="80. lambda">
+      <created>1656008932526</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1656008932527</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,7 +495,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="60. checkbox" />
     <MESSAGE value="33. static keyword (repeat)" />
     <MESSAGE value="5th project done. Randomizer app" />
     <MESSAGE value="61. radio buttons" />
@@ -521,7 +519,8 @@
     <MESSAGE value="HashMap" />
     <MESSAGE value="TreeMap" />
     <MESSAGE value="recursion" />
-    <option name="LAST_COMMIT_MESSAGE" value="recursion" />
+    <MESSAGE value="80. lambda" />
+    <option name="LAST_COMMIT_MESSAGE" value="80. lambda" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,6 +1,6 @@
 public class Person {
     String name;
-    int age;
+    private int age;
 
     Person(String name, int age){
         this.name = name;
@@ -8,6 +8,9 @@ public class Person {
     }
 
     public String toString() {
-        return this.name + "\n" + this.age + "\n";
+        return this.name + " " + this.age + " years old";
+    }
+    public int getAge() {
+        return this.age;
     }
 }
