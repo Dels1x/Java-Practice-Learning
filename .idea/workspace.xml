@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="streams">
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="biggest number out of digits">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -134,13 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00062" summary="43. dynamic polymorphism">
-      <created>1654177950493</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1654177950493</updated>
     </task>
     <task id="LOCAL-00063" summary="44. exception handling">
       <created>1654180356052</created>
@@ -478,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656012045173</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="biggest number out of digits">
+      <created>1656261607089</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1656261607090</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +494,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="5th project done. Randomizer app" />
     <MESSAGE value="61. radio buttons" />
     <MESSAGE value="62. combobox" />
     <MESSAGE value="63. slider" />
@@ -519,7 +518,8 @@
     <MESSAGE value="recursion" />
     <MESSAGE value="80. lambda" />
     <MESSAGE value="streams" />
-    <option name="LAST_COMMIT_MESSAGE" value="streams" />
+    <MESSAGE value="biggest number out of digits" />
+    <option name="LAST_COMMIT_MESSAGE" value="biggest number out of digits" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

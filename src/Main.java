@@ -7,25 +7,58 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println(Kata.nextBiggerNumber(6289));
+        System.out.println(high("a b c d e f"));
+    }
+
+    public static String high(String s) {
+        Character currentChar;
+        Character alphabetChar;
+        String word;
+
+        String[] words = s.split(" ");
+        int[] scores = new int[words.length];
+        char[] alphabet = "abcdefghijklmnopqrstuvwxyz".toCharArray();
+
+
+        for(int i = 0; i < words.length; i++) {
+            word = words[i];
+            System.out.println(word);
+
+            for(int j = 0; j < word.length(); j++) {
+                currentChar = word.charAt(j);
+
+                System.out.println(currentChar);
+
+                for(int a = 0; a < alphabet.length; a++) {
+                    alphabetChar = alphabet[a];
+
+                    if(currentChar.equals(alphabetChar)) {
+                        scores[i] += a+1;
+                        break;
+                    }
+                }
+            }
+        }
+
+        // for(int score : scores) System.out.println(score);
+        // for(String word1 : words) System.out.println(word1);
+
+        return words[getIndexOfLargest(scores)];
 
     }
 
-    public class Kata
-    {
-        public static long nextBiggerNumber(long n)
-        {
-            String number = "";
-            int[] digits = Long.toString(n).chars().map(c -> c-'0').toArray();
-            System.out.println(digits);
-            digits = Arrays.stream(digits).sorted().toArray();
-            for(int i = digits.length-1; i >= 0; i--) {
-                number += digits[i];
-                System.out.println(i);
-            }
+    public static int getIndexOfLargest(int[] array) {
+        int largest = 0;
+        int index = 0;
 
-            return Integer.valueOf(number);
+        for(int i = 0; i < array.length; i++) {
+            if(array[i] > largest) {
+                largest = array[i];
+                index = i;
+            }
         }
+
+        return index;
     }
 
 }
