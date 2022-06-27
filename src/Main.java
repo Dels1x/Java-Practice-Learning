@@ -7,11 +7,18 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[] numbers = {1,2,3,4,5};
+        System.out.println(bmi(58, 1.85));
 
+    }
 
-        System.out.println(Arrays.stream(numbers).min().getAsInt());
-        System.out.println(Arrays.stream(numbers).max().getAsInt());
+    public static String bmi(double weight, double height) {
+        double bmi = weight / (height*height);
+        System.out.println(bmi);
+
+        if(bmi <= 18.5) return "Underweight";
+        else if(bmi <= 25) return "Normal";
+        else if(bmi <= 30) return "Overweight";
+        else return "Obese";
 
     }
 
