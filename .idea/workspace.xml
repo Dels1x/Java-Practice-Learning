@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="get min and max value in an array">
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="Invert values&#10;&#10;https://www.codewars.com/kata/5899dc03bc95b1bf1b0000ad/train/java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -134,20 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00065" summary="44. exception handling">
-      <created>1654257076590</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1654257076591</updated>
-    </task>
-    <task id="LOCAL-00066" summary="45. File class">
-      <created>1654257161545</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1654257161545</updated>
     </task>
     <task id="LOCAL-00067" summary="45. FileWriter (write a file)">
       <created>1654273678787</created>
@@ -478,7 +464,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656324895148</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="body mass index calculator">
+      <created>1656325690680</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1656325690680</updated>
+    </task>
+    <task id="LOCAL-00115" summary="Invert values&#10;&#10;https://www.codewars.com/kata/5899dc03bc95b1bf1b0000ad/train/java">
+      <created>1656326554120</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1656326554120</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,8 +494,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="63. slider" />
-    <MESSAGE value="Centered panel" />
     <MESSAGE value="GridLayout repeat" />
     <MESSAGE value="65. menu bar" />
     <MESSAGE value="66. select a file" />
@@ -519,7 +517,9 @@
     <MESSAGE value="biggest number out of digits" />
     <MESSAGE value="https://www.codewars.com/kata/57eb8fcdf670e99d9b000272/train/java" />
     <MESSAGE value="get min and max value in an array" />
-    <option name="LAST_COMMIT_MESSAGE" value="get min and max value in an array" />
+    <MESSAGE value="body mass index calculator" />
+    <MESSAGE value="Invert values&#10;&#10;https://www.codewars.com/kata/5899dc03bc95b1bf1b0000ad/train/java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Invert values&#10;&#10;https://www.codewars.com/kata/5899dc03bc95b1bf1b0000ad/train/java" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

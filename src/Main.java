@@ -7,14 +7,21 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[] invertedArray = invert(new int[] {-2, 4, -62, 61, -51, 61});
+        String[] tower = towerBuilder(9);
 
-        for(int i : invertedArray) System.out.println(i);
+        for(String i : tower) System.out.println(i);
 
     }
 
-    public static int[] invert(int[] array) {
-        return Arrays.stream(array).map(i -> -i).toArray();
+    public static String[] towerBuilder(int nFloors)
+    {
+        String[] tower = new String[nFloors];
+
+        for(int i = 0; i < nFloors; i++) {
+            tower[i] = " ".repeat(nFloors-i-1) + "*".repeat((i*2)+1) + " ".repeat(nFloors-i-1);
+        }
+
+        return tower;
     }
 
 }
