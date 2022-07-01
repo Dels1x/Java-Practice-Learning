@@ -8,14 +8,16 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[] array = noDuplicates(new int[] {5, 3, 7});
-
-        for(int i : array) System.out.println(i);
+        System.out.println(findUniq(new double[] {2, 2, 2, 1, 1, 2, 4, 0, 4, 2}));
 
     }
 
-    public static int[] noDuplicates(int[] arr){
-        return Arrays.stream(arr).distinct().toArray();
+    public static double findUniq(double[] arr){
+        for(double i : arr) {
+            double[] oneNumberArr = Arrays.stream(arr).filter(value -> value == i).toArray();
+            if(oneNumberArr.length == 1)
+                return oneNumberArr[0];
+        }
+        return 0;
     }
-
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="tower builder">
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="delete all duplicates from array">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -134,13 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00068" summary="46. FileReader (read a file)">
-      <created>1654273950022</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1654273950022</updated>
     </task>
     <task id="LOCAL-00069" summary="47. FileReader (read a file)">
       <created>1654273965718</created>
@@ -478,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656413552877</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="delete all duplicates from array">
+      <created>1656681548333</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1656681548334</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +494,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="65. menu bar" />
     <MESSAGE value="66. select a file" />
     <MESSAGE value="100th commit&#10;&#10;i'm gonna make calculator (solo). yea" />
     <MESSAGE value="CAULCULATOR!!!" />
@@ -519,7 +518,8 @@
     <MESSAGE value="body mass index calculator" />
     <MESSAGE value="Invert values&#10;&#10;https://www.codewars.com/kata/5899dc03bc95b1bf1b0000ad/train/java" />
     <MESSAGE value="tower builder" />
-    <option name="LAST_COMMIT_MESSAGE" value="tower builder" />
+    <MESSAGE value="delete all duplicates from array" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete all duplicates from array" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
