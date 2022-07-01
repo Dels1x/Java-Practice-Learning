@@ -3,25 +3,19 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.stream.IntStream;
 
+
 public class Main {
 
     public static void main(String[] args) {
 
-        String[] tower = towerBuilder(9);
+        int[] array = noDuplicates(new int[] {5, 3, 7});
 
-        for(String i : tower) System.out.println(i);
+        for(int i : array) System.out.println(i);
 
     }
 
-    public static String[] towerBuilder(int nFloors)
-    {
-        String[] tower = new String[nFloors];
-
-        for(int i = 0; i < nFloors; i++) {
-            tower[i] = " ".repeat(nFloors-i-1) + "*".repeat((i*2)+1) + " ".repeat(nFloors-i-1);
-        }
-
-        return tower;
+    public static int[] noDuplicates(int[] arr){
+        return Arrays.stream(arr).distinct().toArray();
     }
 
 }
