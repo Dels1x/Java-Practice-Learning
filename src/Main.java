@@ -8,15 +8,21 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println(findUniq(new double[] {2, 2, 2, 1, 1, 2, 4, 0, 4, 2}));
+        System.out.println(findUniq(new double[] {3, 4, 3, 9, 4, 4}));
 
     }
 
     public static double findUniq(double[] arr){
-        for(double i : arr) {
-            double[] oneNumberArr = Arrays.stream(arr).filter(value -> value == i).toArray();
-            if(oneNumberArr.length == 1)
-                return oneNumberArr[0];
+        int count;
+        double[] noDuplicates = Arrays.stream(arr).distinct().toArray();
+        for(double i : noDuplicates) {
+            count = 0;
+
+            for(double j : arr)
+                if(i == j) count++;
+
+            if(count == 1)
+                return i;
         }
         return 0;
     }
