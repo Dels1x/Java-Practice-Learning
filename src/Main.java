@@ -1,16 +1,21 @@
-class Hi extends Thread {
+class FatherClass {
+    String hello = "Hello from Miami, dude!";
+    String hi = "Hi man! We are niggas with attitudes! Straight out of compton!";
+}
+
+class Hi extends FatherClass implements Runnable {
     public void run() {
         for(int i = 5; i > 0; i--) {
-            System.out.println("Hi");
+            System.out.println(hi);
             try {Thread.sleep(500);} catch (InterruptedException e) {throw new RuntimeException(e);}
         }
     }
 }
 
-class Bye extends Thread {
+class Bye extends FatherClass implements Runnable {
     public void run() {
         for(int i = 5; i > 0; i--) {
-            System.out.println("Bye");
+            System.out.println(hello);
             try {Thread.sleep(500);} catch (InterruptedException e) {throw new RuntimeException(e);}
         }
     }
@@ -20,12 +25,15 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Hi hi = new Hi();
-        Bye bye = new Bye();
+        Runnable hi = new Hi();
+        Runnable bye = new Bye();
 
-        hi.start();
+        Thread thread1 = new Thread(hi);
+        Thread thread2 = new Thread(bye);
+
+        thread1.start();
         try {Thread.sleep(250);} catch (InterruptedException e) {throw new RuntimeException(e);}
-        bye.start();
+        thread2.start();
 
     }
 }
