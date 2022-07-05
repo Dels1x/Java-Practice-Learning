@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="Daemon thread in java | Daemon thread example">
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="Streams API">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -134,13 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00077" summary="55. GridLayout">
-      <created>1654767484962</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1654767484962</updated>
     </task>
     <task id="LOCAL-00078" summary="56. LayeredPane">
       <created>1654772997487</created>
@@ -478,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656954390439</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="Streams API">
+      <created>1657040740970</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1657040740971</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +494,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="68. KeyListener (repeat)" />
     <MESSAGE value="69. MouseListener" />
     <MESSAGE value="70. key bindings" />
     <MESSAGE value="hernya" />
@@ -519,7 +518,8 @@
     <MESSAGE value="13.4 MultiThreading using Lambda Expression" />
     <MESSAGE value="13.5 MultiThreading join and isAlive method in Java" />
     <MESSAGE value="Daemon thread in java | Daemon thread example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Daemon thread in java | Daemon thread example" />
+    <MESSAGE value="Streams API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Streams API" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
