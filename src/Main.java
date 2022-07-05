@@ -1,58 +1,76 @@
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Random;
+import java.util.stream.Collectors;
+
 public class Main {
 
     public static void main(String[] args) throws InterruptedException {
 
-        Runnable hi = () -> {
-            for(int i = 5; i > 0; i--) {
-                System.out.println("Hello from Miami, dude! "+Thread.currentThread().getPriority());
-                try {Thread.sleep(500);} catch (InterruptedException e) {throw new RuntimeException(e);}
-            }
-        };
-        Runnable bye = () -> {
-            for(int i = 5; i > 0; i--) {
-                System.out.println("Hi man! We are niggas with attitudes! Straight outta compton!");
-                try {Thread.sleep(500);} catch (InterruptedException e) {throw new RuntimeException(e);}
-            }
-        };
+        int[] arr = {-5, 2, 9, 3, -15, 62, 16, -6, 17, 101, 17, 9, 2, 2, 2, 0, 1, 1, 1, 0};
+        List<randomNumber> arr1 = Arrays.asList(
+                new randomNumber(), new randomNumber(), new randomNumber(),
+                new randomNumber(), new randomNumber(), new randomNumber(),
+                new randomNumber(), new randomNumber(), new randomNumber()
+        );
 
-        Runnable forever = () -> {
-            int s = 0;
-            while(true) {
-                System.out.println("Seconds"+s);
-                s++;
-                try {Thread.sleep(1000);} catch (InterruptedException e) {throw new RuntimeException(e);}
-            }
-        };
+        displayArray(arr);
 
-        Thread thread1 = new Thread(hi);
-        Thread thread2 = new Thread(bye);
-        Thread thread3 = new Thread(forever);
+        // filter
 
-        thread1.start();
-        try {Thread.sleep(250);} catch (InterruptedException e) {throw new RuntimeException(e);}
-        thread2.start();
-        thread3.setDaemon(true);
-        thread3.start();
+        displayArray(Arrays.stream(arr).filter(i ->  i % 2 == 0).toArray());
 
-        System.out.println("The main thread is still going :D");
+        // you can also use multiple filters
 
+        displayArray(Arrays.stream(arr).filter(i -> i % 2 == 1).filter(i -> i > 10).toArray());
 
-        thread1.setName("Hello from miami");
-        thread2.setName("Straight outta Compton");
+        // sorted
 
-        System.out.println(thread1.getName());
-        System.out.println(thread2.getName());
+        displayArray(Arrays.stream(arr).sorted().toArray()); // sorts
 
-        System.out.println(Thread.MIN_PRIORITY);
-        System.out.println(Thread.MAX_PRIORITY);
+        displayArray(arr1.stream().sorted(Comparator.comparing(randomNumber::getNumber)).collect(Collectors.toList()));
 
-        thread1.setPriority(Thread.MIN_PRIORITY);
-        thread2.setPriority(Thread.MAX_PRIORITY);
+        displayArray(arr1.stream().sorted(Comparator.comparing(randomNumber::getNumber).reversed()).collect(Collectors.toList()));
+
+        // distinct
+
+        displayArray(Arrays.stream(arr).distinct().toArray());
+
+        // map
+
+        displayArray(Arrays.stream(arr).map(i -> i * (i * 2)).toArray());
+
+        displayArray(Arrays.stream(arr).filter(i -> i < 0).map(Math::abs).toArray());
+
+        // collect
+
+    }
 
 
-        if(thread2.isAlive()) thread2.join(); // main thread joins thread2 and waits until thread2 is completed
+    private static void displayArray(int[] arr) {
+        Arrays.stream(arr).forEach(System.out::println);
+        System.out.println();
+    }
 
-        System.out.println("All threads except main ended it job!");
+    private static void displayArray(List<randomNumber> arr) {
+        for(randomNumber i : arr) {
+            System.out.println(i.getNumber());
+        }
+        System.out.println();
+    }
+}
 
+class randomNumber {
+    final private int number;
+
+    randomNumber() {
+        Random random = new Random();
+        number = random.nextInt();
+        System.out.println(number);
+    }
+
+    public int getNumber() {
+        return number;
     }
 }
