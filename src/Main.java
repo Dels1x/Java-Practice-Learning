@@ -1,26 +1,40 @@
-public class Main {
-    public static void main(String[] args) throws InterruptedException {
+import java.util.Arrays;
 
-        System.out.println(BouncingBall.bouncingBall(3.0, 0.66, 1.5));
+public class Main {
+    public static void main(String[] args) {
+
+        int[] array = Kata.pipeFix(new int[] {-3,2,3,9});
+
+        Arrays.stream(array).forEach(System.out::println);
+
+        int k = 0;
+        do {
+            System.out.println("e");
+            k++;
+        } while (k < 5);
+
 
     }
 
 
 }
 
-class BouncingBall {
 
-    public static int bouncingBall(double h, double bounce, double window) {
-        if(h <= 0 || bounce <= 0 || bounce >= 1 || window >= h) return -1;
+class Kata {
+    public static int[] pipeFix(int[] numbers) {
+        int arrayMin = Arrays.stream(numbers).min().getAsInt(),
+                arrayMax = Arrays.stream(numbers).max().getAsInt(),
+                arraySize = Math.abs(arrayMin - arrayMax)+1;
+        System.out.println(arraySize);
+        int[] array = new int[arraySize];
 
-        int count = -1;
-
-        while(h > window) {
-            count+=2;
-            h *= bounce;
+        for(int i = arrayMin; i < arrayMax+1; i++) {
+            System.out.println(i-arrayMin);
+            array[i-arrayMin] = i;
         }
 
-        return count;
+        return array;
 
     }
 }
+
