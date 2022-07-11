@@ -135,13 +135,6 @@
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
     </task>
-    <task id="LOCAL-00079" summary="57. open a new GUI window">
-      <created>1654775895321</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1654775895321</updated>
-    </task>
     <task id="LOCAL-00080" summary="57. open a new GUI window">
       <created>1654879613867</created>
       <option name="number" value="00080" />
@@ -478,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657041504569</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="https://www.codewars.com/kata/56b29582461215098d00000f/train/java">
+      <created>1657138904165</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1657138904165</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -3,16 +3,7 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        int[] array = Kata.pipeFix(new int[] {-3,2,3,9});
-
-        Arrays.stream(array).forEach(System.out::println);
-
-        int k = 0;
-        do {
-            System.out.println("e");
-            k++;
-        } while (k < 5);
-
+        System.out.println(Arrays.toString(M2048.merge(new int[] {8, 8, 2, 4})));
 
     }
 
@@ -20,21 +11,35 @@ public class Main {
 }
 
 
-class Kata {
-    public static int[] pipeFix(int[] numbers) {
-        int arrayMin = Arrays.stream(numbers).min().getAsInt(),
-                arrayMax = Arrays.stream(numbers).max().getAsInt(),
-                arraySize = Math.abs(arrayMin - arrayMax)+1;
-        System.out.println(arraySize);
-        int[] array = new int[arraySize];
+class M2048 {
 
-        for(int i = arrayMin; i < arrayMax+1; i++) {
-            System.out.println(i-arrayMin);
-            array[i-arrayMin] = i;
+    static int[] merge(int[] line) {
+        int temp;
+        line = moveZerosToEnd(line);
+        for(int i = 0; i < line.length-1; i++) {
+            temp = line[i];
+            if(line[i+1] == temp) {
+                line[i] = temp*2;
+                line[i+1] = 0;
+            }
+        }
+        return moveZerosToEnd(line);
+    }
+
+    static int[] moveZerosToEnd(int[] line) {
+        int count = 0;
+
+        for(int i = 0; i < line.length; i++) {
+            if(line[i] != 0) {
+                line[count++] = line[i];
+            }
         }
 
-        return array;
+        while(count < line.length) {
+            line[count++] = 0;
+        }
 
+        return line;
     }
 }
 
