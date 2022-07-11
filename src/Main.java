@@ -12,14 +12,13 @@ public class Main {
 
 class Kata {
     public static int[] sortArray(int[] array) {
-        int[] oddNumbers = Arrays.stream(Arrays.stream(array).filter(i -> i % 2 == 1).toArray()).sorted().toArray();
+        final int[] oddNumbers = Arrays.stream(array).filter(i -> i % 2 == 1).sorted().toArray();
         int count = 0;
 
-        for(int i = 0; i < array.length; i++) {
-            if(array[i] % 2 == 1) {
+        for(int i = 0; i < array.length; i++)
+            if(array[i] % 2 == 1)
                 array[i] = oddNumbers[count++];
-            }
-        }
+
 
         return array;
     }
