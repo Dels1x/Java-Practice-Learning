@@ -12,8 +12,8 @@ class PangramChecker {
     public static boolean check(String sentence){
         String[] alphabetArray = "abcdefghijklmnopqrstuvwxyz".split("");
 
-        for(int i = 0; i < alphabetArray.length; i++) {
-            if(!sentence.toLowerCase().contains(alphabetArray[i])) return false;
+        for(String s : alphabetArray) {
+            if(!sentence.toLowerCase().contains(s)) return false;
         }
 
         return true;
