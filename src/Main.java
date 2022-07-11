@@ -1,23 +1,27 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println(PangramChecker.check("The quick brown fox jumps over the lazy dog."));
+        Arrays.stream(Kata.sortArray(new int[] {9, 51, 8, 8, 5, 1, 2, 4 ,6})).forEach(System.out::println);
 
     }
 
 
 }
 
-class PangramChecker {
-    public static boolean check(String sentence){
-        String[] alphabetArray = "abcdefghijklmnopqrstuvwxyz".split("");
+class Kata {
+    public static int[] sortArray(int[] array) {
+        int[] oddNumbers = Arrays.stream(Arrays.stream(array).filter(i -> i % 2 == 1).toArray()).sorted().toArray();
+        int count = 0;
 
-        for(String s : alphabetArray) {
-            if(!sentence.toLowerCase().contains(s)) return false;
+        for(int i = 0; i < array.length; i++) {
+            if(array[i] % 2 == 1) {
+                array[i] = oddNumbers[count++];
+            }
         }
 
-        return true;
+        return array;
     }
 }
-
 
