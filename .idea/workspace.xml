@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="Detect Pangram&#10;&#10;https://www.codewars.com/kata/545cedaa9943f7fe7b00004800011">
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="Sort the odd&#10;&#10;https://www.codewars.com/kata/578aa45ee9fd15ff4600090d/train/java0004800011">
+      <change afterPath="$PROJECT_DIR$/src/PaginationHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -134,20 +135,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00084" summary="33. static keyword (repeat)">
-      <created>1654958331163</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1654958331163</updated>
-    </task>
-    <task id="LOCAL-00085" summary="5th project done. Randomizer app">
-      <created>1654962054642</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1654962054642</updated>
     </task>
     <task id="LOCAL-00086" summary="61. radio buttons">
       <created>1655111743406</created>
@@ -478,7 +465,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657552477176</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="Sort the odd&#10;&#10;https://www.codewars.com/kata/578aa45ee9fd15ff4600090d/train/java0004800011">
+      <created>1657557113971</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1657557113971</updated>
+    </task>
+    <task id="LOCAL-00134" summary="Sort the odd&#10;&#10;https://www.codewars.com/kata/578aa45ee9fd15ff4600090d/train/java0004800011">
+      <created>1657557172709</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1657557172709</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +495,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="75. HashMap" />
     <MESSAGE value="HashMap" />
     <MESSAGE value="TreeMap" />
     <MESSAGE value="recursion" />
@@ -519,7 +519,8 @@
     <MESSAGE value="https://www.codewars.com/kata/56b29582461215098d00000f/train/java" />
     <MESSAGE value="Merge in 2048&#10;&#10;https://www.codewars.com/kata/55e1990978c60e5052000011" />
     <MESSAGE value="Detect Pangram&#10;&#10;https://www.codewars.com/kata/545cedaa9943f7fe7b00004800011" />
-    <option name="LAST_COMMIT_MESSAGE" value="Detect Pangram&#10;&#10;https://www.codewars.com/kata/545cedaa9943f7fe7b00004800011" />
+    <MESSAGE value="Sort the odd&#10;&#10;https://www.codewars.com/kata/578aa45ee9fd15ff4600090d/train/java0004800011" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sort the odd&#10;&#10;https://www.codewars.com/kata/578aa45ee9fd15ff4600090d/train/java0004800011" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
