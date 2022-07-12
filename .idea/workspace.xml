@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="Sort the odd&#10;&#10;https://www.codewars.com/kata/578aa45ee9fd15ff4600090d/train/java0004800011">
-      <change afterPath="$PROJECT_DIR$/src/PaginationHelper.java" afterDir="false" />
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="PaginationHelper&#10;&#10;https://www.codewars.com/kata/515bb423de843ea99400000a/solutions/java?filter=me&amp;sort=best_practice.com/kata/515bb423de843ea99400000a/solutions/java?filter=me&amp;sort=best_practice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -135,13 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00086" summary="61. radio buttons">
-      <created>1655111743406</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1655111743406</updated>
     </task>
     <task id="LOCAL-00087" summary="62. combobox">
       <created>1655119003206</created>
@@ -479,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657557172709</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="PaginationHelper&#10;&#10;https://www.codewars.com/kata/515bb423de843ea99400000a/solutions/java?filter=me&amp;sort=best_practice.com/kata/515bb423de843ea99400000a/solutions/java?filter=me&amp;sort=best_practice">
+      <created>1657637288737</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1657637288738</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -495,7 +494,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="HashMap" />
     <MESSAGE value="TreeMap" />
     <MESSAGE value="recursion" />
     <MESSAGE value="80. lambda" />
@@ -520,7 +518,8 @@
     <MESSAGE value="Merge in 2048&#10;&#10;https://www.codewars.com/kata/55e1990978c60e5052000011" />
     <MESSAGE value="Detect Pangram&#10;&#10;https://www.codewars.com/kata/545cedaa9943f7fe7b00004800011" />
     <MESSAGE value="Sort the odd&#10;&#10;https://www.codewars.com/kata/578aa45ee9fd15ff4600090d/train/java0004800011" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sort the odd&#10;&#10;https://www.codewars.com/kata/578aa45ee9fd15ff4600090d/train/java0004800011" />
+    <MESSAGE value="PaginationHelper&#10;&#10;https://www.codewars.com/kata/515bb423de843ea99400000a/solutions/java?filter=me&amp;sort=best_practice.com/kata/515bb423de843ea99400000a/solutions/java?filter=me&amp;sort=best_practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="PaginationHelper&#10;&#10;https://www.codewars.com/kata/515bb423de843ea99400000a/solutions/java?filter=me&amp;sort=best_practice.com/kata/515bb423de843ea99400000a/solutions/java?filter=me&amp;sort=best_practice" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
