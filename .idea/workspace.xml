@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="PaginationHelper&#10;&#10;https://www.codewars.com/kata/515bb423de843ea99400000a/solutions/java?filter=me&amp;sort=best_practice.com/kata/515bb423de843ea99400000a/solutions/java?filter=me&amp;sort=best_practice">
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="Stop gninnipS My sdroW!&#10;&#10;https://www.codewars.com/kata/5264d2b162488dc400000001/train/java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -134,13 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00087" summary="62. combobox">
-      <created>1655119003206</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1655119003206</updated>
     </task>
     <task id="LOCAL-00088" summary="63. slider">
       <created>1655123867504</created>
@@ -478,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657637288738</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="Counting Duplicates&#10;&#10;https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1/train/java">
+      <created>1657640545581</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1657640545581</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,8 +494,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="TreeMap" />
-    <MESSAGE value="recursion" />
     <MESSAGE value="80. lambda" />
     <MESSAGE value="streams" />
     <MESSAGE value="biggest number out of digits" />
@@ -519,7 +517,9 @@
     <MESSAGE value="Detect Pangram&#10;&#10;https://www.codewars.com/kata/545cedaa9943f7fe7b00004800011" />
     <MESSAGE value="Sort the odd&#10;&#10;https://www.codewars.com/kata/578aa45ee9fd15ff4600090d/train/java0004800011" />
     <MESSAGE value="PaginationHelper&#10;&#10;https://www.codewars.com/kata/515bb423de843ea99400000a/solutions/java?filter=me&amp;sort=best_practice.com/kata/515bb423de843ea99400000a/solutions/java?filter=me&amp;sort=best_practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="PaginationHelper&#10;&#10;https://www.codewars.com/kata/515bb423de843ea99400000a/solutions/java?filter=me&amp;sort=best_practice.com/kata/515bb423de843ea99400000a/solutions/java?filter=me&amp;sort=best_practice" />
+    <MESSAGE value="Counting Duplicates&#10;&#10;https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1/train/java" />
+    <MESSAGE value="Stop gninnipS My sdroW!&#10;&#10;https://www.codewars.com/kata/5264d2b162488dc400000001/train/java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stop gninnipS My sdroW!&#10;&#10;https://www.codewars.com/kata/5264d2b162488dc400000001/train/java" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

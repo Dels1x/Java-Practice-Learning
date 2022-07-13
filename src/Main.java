@@ -1,34 +1,32 @@
-import java.util.Arrays;
-import java.util.List;
-import java.util.Locale;
-
 public class Main {
     public static void main(String[] args) {
 
-        CountingDuplicates e = new CountingDuplicates();
 
-        System.out.println(CountingDuplicates.duplicateCount("abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzReturnsTwentySix"));
+        System.out.println(SpinWords.spinWords("Hey fellow warriors"));
 
     }
 
 
 }
 
-class CountingDuplicates {
-    public static int duplicateCount(String text) {
-        int count = 0;
-        String temp;
-        text = text.toLowerCase();
+class SpinWords {
 
-        while(text != "") {
-            temp = text.substring(0, 1);
-            text = text.substring(1);
-            if (text.contains(temp)) {
-                count++;
-                text = text.replace(temp, "");
+    public static String spinWords(String sentence) {
+        StringBuilder sb;
+        String[] arr = sentence.split(" ");
+
+        StringBuilder sentenceBuilder = new StringBuilder();
+        for (String i: arr) {
+            if (i.length() >= 5) {
+                sb = new StringBuilder(i);
+                sentenceBuilder.append(sb.reverse()).append(" ");
             }
+            else
+                sentenceBuilder.append(i).append(" ");
         }
+        sentence = sentenceBuilder.toString();
 
-        return count;
+        return sentence.trim();
+
     }
 }
