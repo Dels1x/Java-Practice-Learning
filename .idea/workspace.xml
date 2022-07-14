@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="test commit from new windows">
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="Sum of Digits / Digital Root&#10;&#10;https://www.codewars.com/kata/541c8630095125aba6000c00/train/java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -134,13 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00089" summary="Centered panel">
-      <created>1655144770262</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1655144770264</updated>
     </task>
     <task id="LOCAL-00090" summary="Centered panel">
       <created>1655146233222</created>
@@ -478,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657740808497</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary="Sum of Digits / Digital Root&#10;&#10;https://www.codewars.com/kata/541c8630095125aba6000c00/train/java">
+      <created>1657803185111</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1657803185112</updated>
+    </task>
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +494,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="streams" />
     <MESSAGE value="biggest number out of digits" />
     <MESSAGE value="https://www.codewars.com/kata/57eb8fcdf670e99d9b000272/train/java" />
     <MESSAGE value="get min and max value in an array" />
@@ -519,7 +518,8 @@
     <MESSAGE value="Counting Duplicates&#10;&#10;https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1/train/java" />
     <MESSAGE value="Stop gninnipS My sdroW!&#10;&#10;https://www.codewars.com/kata/5264d2b162488dc400000001/train/java" />
     <MESSAGE value="test commit from new windows" />
-    <option name="LAST_COMMIT_MESSAGE" value="test commit from new windows" />
+    <MESSAGE value="Sum of Digits / Digital Root&#10;&#10;https://www.codewars.com/kata/541c8630095125aba6000c00/train/java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sum of Digits / Digital Root&#10;&#10;https://www.codewars.com/kata/541c8630095125aba6000c00/train/java" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

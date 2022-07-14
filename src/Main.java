@@ -1,28 +1,25 @@
-import java.util.stream.IntStream;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
 
 
-        System.out.println(DRoot.digital_root(780));
+        Arrays.stream(Kata.arrayDiff(new int[] {1, 2, 3}, new int[] {1})).forEach(System.out::println);
 
     }
 }
 
-class DRoot {
-    public static int digital_root(int n) {
-        int sum = 0;
+class Kata {
 
-        while (String.valueOf(n).length() != 1) {
-            sum = 0;
-
-            for (int i = 0; i < String.valueOf(n).length(); i++) {
-                sum += Character.getNumericValue(String.valueOf(n).charAt(i));
+    public static int[] arrayDiff(int[] a, int[] b) {
+        ArrayList<Integer> c = new ArrayList<>();
+        for(int i: a) {
+            if(Arrays.stream(b).noneMatch(x -> x == i)) {
+                c.add(i);
             }
-
-            n = sum;
         }
 
-        return sum;
+        return c.stream().mapToInt(Integer::intValue).toArray();
     }
 }
