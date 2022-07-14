@@ -1,32 +1,28 @@
+import java.util.stream.IntStream;
+
 public class Main {
     public static void main(String[] args) {
 
 
-        System.out.println(SpinWords.spinWords("Hey fellow warriors"));
+        System.out.println(DRoot.digital_root(780));
 
     }
-
-
 }
 
-class SpinWords {
+class DRoot {
+    public static int digital_root(int n) {
+        int sum = 0;
 
-    public static String spinWords(String sentence) {
-        StringBuilder sb;
-        String[] arr = sentence.split(" ");
+        while (String.valueOf(n).length() != 1) {
+            sum = 0;
 
-        StringBuilder sentenceBuilder = new StringBuilder();
-        for (String i: arr) {
-            if (i.length() >= 5) {
-                sb = new StringBuilder(i);
-                sentenceBuilder.append(sb.reverse()).append(" ");
+            for (int i = 0; i < String.valueOf(n).length(); i++) {
+                sum += Character.getNumericValue(String.valueOf(n).charAt(i));
             }
-            else
-                sentenceBuilder.append(i).append(" ");
+
+            n = sum;
         }
-        sentence = sentenceBuilder.toString();
 
-        return sentence.trim();
-
+        return sum;
     }
 }
