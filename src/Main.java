@@ -4,28 +4,24 @@ import java.util.Locale;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println(Kata.encode("Success"));
+        System.out.println(Kata.pigIt("Pig latin is cool !"));
 
     }
 }
 
 class Kata {
-    static String encode(String word){
-        int length = word.length();
-        String temp;
-        String output = "";
+    public static String pigIt(String str) {
+        String[] strArr = str.split(" ");
+        StringBuilder output = new StringBuilder();
 
-        for(int i = 0; i < length; i++) {
-            temp = word.substring(i, i+1).toLowerCase();
-            String concat = word.substring(0, i).concat(word.substring(i+1)).toLowerCase();
-
-            if(concat.contains(temp)) {
-                output = output.concat(")");
+        for (String word : strArr) {
+            if(word.matches("\\p{Punct}")) {
+                output.append(word.substring(1)).append(word.charAt(0));
             } else {
-                output = output.concat("(");
+                output.append(word.substring(1)).append(word.charAt(0)).append("ay ");
             }
         }
 
-        return output;
+        return output.toString().trim();
     }
 }
