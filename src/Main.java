@@ -1,20 +1,20 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println(Kata.countBits(1234));
+        System.out.println(Kata.find(new int[] {2, -6, 8, -10, -3,}));
+        System.out.println(-9 % 2);
 
     }
 }
 
 class Kata {
-    public static int countBits(int n){
-        String binaryNum = Integer.toBinaryString(n);
-        int output = 0;
-
-        for(int i = 0; i < binaryNum.length(); i++) {
-            output += Character.getNumericValue(binaryNum.charAt(i));
-        }
-
-        return output;
+    static int find(int[] integers) {
+        long evenNum =  Arrays.stream(integers).filter(i -> i % 2 == 0).count();
+        System.out.println(evenNum);
+        return evenNum == 1 ?
+                Arrays.stream(integers).filter(i -> i % 2 == 0).findFirst().orElse(0):
+                Arrays.stream(integers).filter(i -> i % 2 == 1 || i % 2 == -1).findFirst().orElse(0);
     }
 }
