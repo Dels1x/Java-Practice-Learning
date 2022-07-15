@@ -4,24 +4,22 @@ import java.util.Locale;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println(Kata.pigIt("Pig latin is cool !"));
+        System.out.println(Kata.validParentheses(")(())"));
 
     }
 }
 
 class Kata {
-    public static String pigIt(String str) {
-        String[] strArr = str.split(" ");
-        StringBuilder output = new StringBuilder();
+    public static boolean validParentheses(String parens) {
+        int count = 0;
 
-        for (String word : strArr) {
-            if(word.matches("\\p{Punct}")) {
-                output.append(word.substring(1)).append(word.charAt(0));
-            } else {
-                output.append(word.substring(1)).append(word.charAt(0)).append("ay ");
-            }
+        for(int i = 0; i < parens.length(); i++) {
+            if(parens.charAt(i) == '(') count++;
+            else if(parens.charAt(i) == ')') count--;
+
+            if(count < 0) return false;
         }
 
-        return output.toString().trim();
+        return count == 0;
     }
 }
