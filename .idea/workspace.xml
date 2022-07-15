@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="Bit Counting&#10;&#10;https://www.codewars.com/kata/526571aae218b8ee490006f4/train/java">
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="Find The Parity Outlier&#10;&#10;https://www.codewars.com/kata/5526fc09a1bbd946250002dc/train/java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -134,13 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00093" summary="66. select a file">
-      <created>1655204970360</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1655204970361</updated>
     </task>
     <task id="LOCAL-00094" summary="100th commit&#10;&#10;i'm gonna make calculator (solo). yea">
       <created>1655392330448</created>
@@ -478,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657884264163</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <task id="LOCAL-00142" summary="Find The Parity Outlier&#10;&#10;https://www.codewars.com/kata/5526fc09a1bbd946250002dc/train/java">
+      <created>1657887376415</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1657887376417</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +494,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="body mass index calculator" />
     <MESSAGE value="Invert values&#10;&#10;https://www.codewars.com/kata/5899dc03bc95b1bf1b0000ad/train/java" />
     <MESSAGE value="tower builder" />
     <MESSAGE value="delete all duplicates from array" />
@@ -519,7 +518,8 @@
     <MESSAGE value="Array.diff&#10;&#10;https://www.codewars.com/kata/523f5d21c841566fde000009/solutions/java" />
     <MESSAGE value="Ascend, Descend, Repeat?&#10;&#10;https://www.codewars.com/kata/62ca07aaedc75c88fb95ee2f/train/java" />
     <MESSAGE value="Bit Counting&#10;&#10;https://www.codewars.com/kata/526571aae218b8ee490006f4/train/java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bit Counting&#10;&#10;https://www.codewars.com/kata/526571aae218b8ee490006f4/train/java" />
+    <MESSAGE value="Find The Parity Outlier&#10;&#10;https://www.codewars.com/kata/5526fc09a1bbd946250002dc/train/java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Find The Parity Outlier&#10;&#10;https://www.codewars.com/kata/5526fc09a1bbd946250002dc/train/java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

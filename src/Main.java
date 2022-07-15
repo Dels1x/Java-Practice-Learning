@@ -1,20 +1,31 @@
 import java.util.Arrays;
+import java.util.Locale;
 
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println(Kata.find(new int[] {2, -6, 8, -10, -3,}));
-        System.out.println(-9 % 2);
+        System.out.println(Kata.encode("Success"));
 
     }
 }
 
 class Kata {
-    static int find(int[] integers) {
-        long evenNum =  Arrays.stream(integers).filter(i -> i % 2 == 0).count();
-        System.out.println(evenNum);
-        return evenNum == 1 ?
-                Arrays.stream(integers).filter(i -> i % 2 == 0).findFirst().orElse(0):
-                Arrays.stream(integers).filter(i -> i % 2 == 1 || i % 2 == -1).findFirst().orElse(0);
+    static String encode(String word){
+        int length = word.length();
+        String temp;
+        String output = "";
+
+        for(int i = 0; i < length; i++) {
+            temp = word.substring(i, i+1).toLowerCase();
+            String concat = word.substring(0, i).concat(word.substring(i+1)).toLowerCase();
+
+            if(concat.contains(temp)) {
+                output = output.concat(")");
+            } else {
+                output = output.concat("(");
+            }
+        }
+
+        return output;
     }
 }
