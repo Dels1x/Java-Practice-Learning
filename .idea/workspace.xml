@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="Simple Pig Latin&#10;&#10;https://www.codewars.com/kata/520b9d2ad5c005041100000f/train/java">
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="Valid Parentheses&#10;&#10;https://www.codewars.com/kata/52774a314c2333f0a7000688/train/java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,13 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00096" summary="67. color chooser">
-      <created>1655412191999</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1655412192000</updated>
     </task>
     <task id="LOCAL-00097" summary="more width to calculator">
       <created>1655412650626</created>
@@ -477,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657890732760</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <task id="LOCAL-00145" summary="Valid Parentheses&#10;&#10;https://www.codewars.com/kata/52774a314c2333f0a7000688/train/java">
+      <created>1657899927272</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1657899927272</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -493,7 +494,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="delete all duplicates from array" />
     <MESSAGE value="Find the unique number" />
     <MESSAGE value="MultiThreading in Java Theory" />
     <MESSAGE value="13.2 Multithreading in Java Practical" />
@@ -518,7 +518,8 @@
     <MESSAGE value="Find The Parity Outlier&#10;&#10;https://www.codewars.com/kata/5526fc09a1bbd946250002dc/train/java" />
     <MESSAGE value="Duplicate Encoder&#10;&#10;https://www.codewars.com/kata/54b42f9314d9229fd6000d9c/train/java" />
     <MESSAGE value="Simple Pig Latin&#10;&#10;https://www.codewars.com/kata/520b9d2ad5c005041100000f/train/java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Simple Pig Latin&#10;&#10;https://www.codewars.com/kata/520b9d2ad5c005041100000f/train/java" />
+    <MESSAGE value="Valid Parentheses&#10;&#10;https://www.codewars.com/kata/52774a314c2333f0a7000688/train/java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Valid Parentheses&#10;&#10;https://www.codewars.com/kata/52774a314c2333f0a7000688/train/java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
