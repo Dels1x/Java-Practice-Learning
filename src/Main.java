@@ -3,15 +3,16 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println(Kata.persistence(999));
+        System.out.println(Persist.persistence(999));
 
     }
 }
 
-class Kata {
+class Persist {
     public static int persistence(long n) {
-        int sum = 0;
-        ArrayList<Integer> arrayList = Kata.toDigitsArrayList(n);
+        int sum;
+        int count = 0;
+        ArrayList<Integer> arrayList = Persist.toDigitsArrayList(n);
 
         while(arrayList.size() > 1) {
             sum = arrayList.get(0);
@@ -20,10 +21,11 @@ class Kata {
                 sum *= arrayList.get(i);
             }
 
-            arrayList = Kata.toDigitsArrayList(sum);
+            count++;
+            arrayList = Persist.toDigitsArrayList(sum);
         }
 
-        return sum;
+        return count;
     }
 
     static ArrayList<Integer> toDigitsArrayList(long n) {

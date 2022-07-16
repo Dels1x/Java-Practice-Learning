@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="Data Structures and Algorithms: 4. Priority Queues">
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="CodeWars: Persistent Bugger&#10;&#10;https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec/train/java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -134,13 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00102" summary="70. key bindings">
-      <created>1655636501323</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1655636501324</updated>
     </task>
     <task id="LOCAL-00103" summary="hernya">
       <created>1655732055003</created>
@@ -478,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657991140834</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="CodeWars: Persistent Bugger&#10;&#10;https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec/train/java">
+      <created>1657994291463</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1657994291463</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +494,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="13.5 MultiThreading join and isAlive method in Java" />
     <MESSAGE value="Daemon thread in java | Daemon thread example" />
     <MESSAGE value="Streams API" />
     <MESSAGE value="https://www.codewars.com/kata/5544c7a5cb454edb3c000047/train/java" />
@@ -519,7 +518,8 @@
     <MESSAGE value="Directions Reduction kata using stacks" />
     <MESSAGE value="Data Structures and Algorithms: 3. Queue" />
     <MESSAGE value="Data Structures and Algorithms: 4. Priority Queues" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data Structures and Algorithms: 4. Priority Queues" />
+    <MESSAGE value="CodeWars: Persistent Bugger&#10;&#10;https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec/train/java" />
+    <option name="LAST_COMMIT_MESSAGE" value="CodeWars: Persistent Bugger&#10;&#10;https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec/train/java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
