@@ -1,4 +1,6 @@
+import java.util.Collections;
 import java.util.LinkedList;
+import java.util.PriorityQueue;
 import java.util.Queue;
 
 public class Main {
@@ -11,37 +13,38 @@ public class Main {
 
                         add = enqueue, offer()
                         remove = dequeue, poll()
+
+
+                Priority Queue =    FIFO data structure that serves elements
+                                    with the highest priorities first
+                                    before elements with lower priority
         */
 
-        Queue<String> queue = new LinkedList<>();
+        Queue<Double> queue = new PriorityQueue<>(Collections.reverseOrder());
 
-        queue.offer("Danya Kostyanitca");
-        queue.offer("Danya Hamula");
-        queue.offer("Danislav Anufriev");
-        queue.offer("Kirill Charyshnikov");
+        queue.offer(3.5);
+        queue.offer(2.5);
+        queue.offer(3.2);
+        queue.offer(5.5);
+        queue.offer(2.1);
+        queue.offer(1.9);
 
+        while(!queue.isEmpty()) {
+            System.out.println(queue.poll());
+        }
 
-        System.out.println(queue);
-        System.out.println(queue.peek()); // returns first element
-        System.out.println(queue.poll()); // removes first element and returns it
-        System.out.println(queue.size()); // returns size of queue
-        System.out.println(queue.contains("Danya Hamula")); // checks if queue contains the string
+        Queue<String> queue1 = new PriorityQueue<>();
 
-        queue.poll();
-        queue.poll();
-        queue.poll();
-        queue.poll();
-        // queue.element() - throws exception
-        queue.poll(); // - doesn't throw
+        queue1.offer("AMD RX 6600 XT");
+        queue1.offer("AMD RX 6500 XT");
+        queue1.offer("NVIDIA GeForce RTX 3090");
 
-        System.out.println(queue);
-        System.out.println(queue.isEmpty());
+        while(!queue1.isEmpty()) {
+            System.out.println(queue1.poll());
+        }
 
-        // Where are queues useful?
+        // PriorityQueue<String> sorts string in alphabetical order, you also can use Collections.reverseOrder()
 
-        // 1. Keyboard Buffer (letters should appear on the screen in the order they're pressed)
-        // 2. Printer Queue (Print jobs should be completed in order)
-        // 3. Used in LinkedLists, PriorityQueues, Breadth-first-search
 
     }
 }
