@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="Data Structures and Algorithms: 2. stacks">
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="Directions Reduction kata using stacks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -134,13 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00099" summary="68. KeyListener">
-      <created>1655471448359</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1655471448360</updated>
     </task>
     <task id="LOCAL-00100" summary="68. KeyListener (repeat)">
       <created>1655491142809</created>
@@ -478,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657966172138</updated>
     </task>
-    <option name="localTasksCounter" value="148" />
+    <task id="LOCAL-00148" summary="Directions Reduction kata using stacks">
+      <created>1657966832723</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1657966832723</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +494,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="13.2 Multithreading in Java Practical" />
     <MESSAGE value="13.3 Multithreading using Runnable Interface" />
     <MESSAGE value="13.4 MultiThreading using Lambda Expression" />
     <MESSAGE value="13.5 MultiThreading join and isAlive method in Java" />
@@ -519,7 +518,8 @@
     <MESSAGE value="Valid Parentheses&#10;&#10;https://www.codewars.com/kata/52774a314c2333f0a7000688/train/java" />
     <MESSAGE value="Directions Reduction&#10;&#10;https://www.codewars.com/kata/550f22f4d758534c1100025a/train/java" />
     <MESSAGE value="Data Structures and Algorithms: 2. stacks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data Structures and Algorithms: 2. stacks" />
+    <MESSAGE value="Directions Reduction kata using stacks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Directions Reduction kata using stacks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
