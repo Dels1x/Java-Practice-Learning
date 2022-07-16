@@ -1,30 +1,44 @@
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Stack;
 
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println(Arrays.toString(Kata.dirReduc(new String[]{"NORTH", "NORTH", "SOUTH", "SOUTH", "WEST", "NORTH", "EAST"})));
+        /*
+            stack = a LIFO data structure. Last-in First-out
+            stores objects into a sort of "vertical tower"
+            push() to add to the top
+            pop() to remove from the top
+        */
 
-    }
-}
+        Stack<String> stack = new Stack<>();
 
-class Kata {
-    public static String[] dirReduc(String[] arr) {
-        ArrayList<String> list = new ArrayList<>(Arrays.asList(arr));
+        System.out.println(stack.empty()); // returns true or false whether if the stack is empty
 
-        for(int i = 1; i < list.size(); i++) {
-            if((list.get(i).equals("NORTH") && list.get(i-1).equals("SOUTH")) ||
-               (list.get(i).equals("SOUTH") && list.get(i-1).equals("NORTH")) ||
-               (list.get(i).equals("EAST") && list.get(i-1).equals("WEST")) ||
-               (list.get(i).equals("WEST") && list.get(i-1).equals("EAST"))) {
-                System.out.println("tf");
-                    list.remove(i);
-                    list.remove(i-1);
-                    i = 0;
-            }
-        }
+        stack.push("Minecraft");
+        stack.push("The Neverhood");
+        stack.push("Mafia: the City of Lost Heaven");
+        stack.push("Detroit: Become Human");
+        stack.push("The Witcher");
+        stack.push("The Witcher II");
 
-        return list.toArray(new String[0]);
+        System.out.println(stack);
+
+        stack.pop();
+        stack.pop();
+        stack.pop();
+
+        String myFavGame = stack.pop();
+
+        System.out.println(myFavGame);
+
+        System.out.println(stack.search("The Witcher")); // return -1 because The Witcher is not anymore in the stack since we popped it
+        System.out.println(stack.search("Minecraft")); // return index from top
+
+        /*  uses of stacks?
+            1. undo/redo features in text editors
+            2. moving back/forward through the browser history
+            3. backtracking algorithms (maze, file directories)
+            4. calling functions (call stack)
+        */
     }
 }
