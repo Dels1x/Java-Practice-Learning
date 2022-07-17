@@ -1,47 +1,51 @@
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.LinkedList;
+import java.util.Collections;
 
 public class Main {
     public static void main(String[] args) {
 
-        LinkedList<String> linkedList = new LinkedList<>();
+        System.out.println(WeightSort.orderWeight("387087 176 351832 100 430372 8 58052 54 175432 120 269974 147 309754 91 404858 67 271476 164 295747 111 40"));
 
-        /*
-        linkedList.push("A");
-        linkedList.push("B");
-        linkedList.push("C");
-        linkedList.push("D");
-        linkedList.push("F");
-        linkedList.push("S");
-        linkedList.pop(); */
 
-        linkedList.offer("A");
-        linkedList.offer("B");
-        linkedList.offer("C");
-        linkedList.offer("D");
-        linkedList.offer("F");
-        linkedList.offer("S");
-        linkedList.poll();
+    }
+}
 
-        linkedList.add(4, "E");
+class WeightSort {
 
-        System.out.println(linkedList);
+    public static String orderWeight(String string) {
+        int sum;
+        String output = "";
+        String[] arr = string.split(" ");
+        Arrays.sort(arr);
+        System.out.println(Arrays.toString(arr));
+        int[] values = new int[arr.length];
 
-        linkedList.remove("E");
 
-        System.out.println(linkedList);
-        System.out.println(linkedList.peekFirst());
-        System.out.println(linkedList.peekLast());
+        for(int i = 0; i < arr.length; i++) {
+            sum = 0;
 
-        linkedList.addFirst("0");
-        linkedList.addLast("9");
-        String first = linkedList.removeFirst();
-        String last = linkedList.removeLast();
-        System.out.println(linkedList);
+            for(int j = 0; j < arr[i].length(); j++) {
+                sum += Character.getNumericValue(arr[i].charAt(j));
+            }
 
-        System.out.println(linkedList.get(3));
-        System.out.println(linkedList.size());
+            values[i] = sum;
+        }
 
+        for(int i = 0; i < arr.length; i++) {
+            for(int j = i+1; j < arr.length; j++) {
+                if(values[i] > values[j]) {
+                    int intTemp = values[i];
+                    String strTemp = arr[i];
+                    values[i] = values[j];
+                    values[j] = intTemp;
+                    arr[i] = arr[j];
+                    arr[j] = strTemp;
+                }
+            }
+        }
+
+        for(String i : arr) output = output.concat(i.concat(" "));
+
+        return output.trim();
     }
 }
