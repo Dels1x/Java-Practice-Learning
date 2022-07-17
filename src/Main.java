@@ -1,40 +1,27 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println(Persist.persistence(999));
+        System.out.println(Arrays.toString(Kata.tribonacci(new double[]{13, 10, 20}, 2)));
 
     }
 }
 
-class Persist {
-    public static int persistence(long n) {
-        int sum;
-        int count = 0;
-        ArrayList<Integer> arrayList = Persist.toDigitsArrayList(n);
+class Kata {
+    public static double[] tribonacci(double[] s, int n) {
+        ArrayList<Double> arrayList = new ArrayList<>();
 
-        while(arrayList.size() > 1) {
-            sum = arrayList.get(0);
-
-            for(int i = 1; i < arrayList.size(); i++) {
-                sum *= arrayList.get(i);
-            }
-
-            count++;
-            arrayList = Persist.toDigitsArrayList(sum);
+        if (n > 2) {
+            for (double i : s) arrayList.add(i);
+        } else {
+            for (int i = 0; i < n; i++) arrayList.add(s[i]);
+            return arrayList.stream().mapToDouble(d ->d).toArray();
         }
 
-        return count;
-    }
+        for(int i = 2; i < n-1; i++) arrayList.add(arrayList.get(i - 2) + arrayList.get(i - 1) + arrayList.get(i));
 
-    static ArrayList<Integer> toDigitsArrayList(long n) {
-        ArrayList<Integer> arrayList = new ArrayList<>();
-
-        for(int i = 0; i < String.valueOf(n).length(); i++) {
-            arrayList.add(Character.getNumericValue(String.valueOf(n).charAt(i)));
-        }
-
-        return arrayList;
+        return arrayList.stream().mapToDouble(d -> d).toArray();
     }
 }

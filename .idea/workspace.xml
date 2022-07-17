@@ -135,13 +135,6 @@
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
     </task>
-    <task id="LOCAL-00103" summary="hernya">
-      <created>1655732055003</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1655732055004</updated>
-    </task>
     <task id="LOCAL-00104" summary="6kyu: Split Strings">
       <created>1655839934061</created>
       <option name="number" value="00104" />
@@ -478,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657994291463</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="CodeWars: Persistent Bugger&#10;&#10;https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec/train/java">
+      <created>1657994912963</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1657994912963</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
