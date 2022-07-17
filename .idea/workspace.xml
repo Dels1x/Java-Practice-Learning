@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="CodeWars: Persistent Bugger&#10;&#10;https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec/train/java">
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="Data Structures and Algorithms: 5. Linked Lists">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -134,20 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00104" summary="6kyu: Split Strings">
-      <created>1655839934061</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1655839934062</updated>
-    </task>
-    <task id="LOCAL-00105" summary="75. HashMap">
-      <created>1655902526061</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1655902526062</updated>
     </task>
     <task id="LOCAL-00106" summary="HashMap">
       <created>1655905810607</created>
@@ -478,7 +464,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657994912963</updated>
     </task>
-    <option name="localTasksCounter" value="153" />
+    <task id="LOCAL-00153" summary="CodeWars: &#10;Tribonacci Sequence&#10;&#10;https://www.codewars.com/kata/556deca17c58da83c00002db/train/java">
+      <created>1658049119285</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1658049119285</updated>
+    </task>
+    <task id="LOCAL-00154" summary="CodeWars: &#10;Tribonacci Sequence&#10;&#10;https://www.codewars.com/kata/556deca17c58da83c00002db/train/java">
+      <created>1658049393564</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1658049393564</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,8 +494,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Daemon thread in java | Daemon thread example" />
-    <MESSAGE value="Streams API" />
     <MESSAGE value="https://www.codewars.com/kata/5544c7a5cb454edb3c000047/train/java" />
     <MESSAGE value="https://www.codewars.com/kata/56b29582461215098d00000f/train/java" />
     <MESSAGE value="Merge in 2048&#10;&#10;https://www.codewars.com/kata/55e1990978c60e5052000011" />
@@ -519,7 +517,9 @@
     <MESSAGE value="Data Structures and Algorithms: 3. Queue" />
     <MESSAGE value="Data Structures and Algorithms: 4. Priority Queues" />
     <MESSAGE value="CodeWars: Persistent Bugger&#10;&#10;https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec/train/java" />
-    <option name="LAST_COMMIT_MESSAGE" value="CodeWars: Persistent Bugger&#10;&#10;https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec/train/java" />
+    <MESSAGE value="CodeWars: &#10;Tribonacci Sequence&#10;&#10;https://www.codewars.com/kata/556deca17c58da83c00002db/train/java" />
+    <MESSAGE value="Data Structures and Algorithms: 5. Linked Lists" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data Structures and Algorithms: 5. Linked Lists" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
