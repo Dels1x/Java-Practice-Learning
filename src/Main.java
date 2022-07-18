@@ -1,35 +1,27 @@
 public class Main {
     public static void main(String[] args) {
 
-        DynamicArray dynamicArray = new DynamicArray(5);
+        int n = 3456789;
+        int p = 1;
+        int result = 2360688;
+        double k = (double) result / n;
 
-        System.out.println(dynamicArray.getCapacity());
-        System.out.println(dynamicArray.isEmpty());
+        System.out.println(DigPow.digPow(n, p));
 
-        dynamicArray.add("HLTV");
-        dynamicArray.add("Steam");
-        dynamicArray.add("YouTube");
-        dynamicArray.add("Twitch");
-        dynamicArray.insert(2,"CSGO");
-        dynamicArray.add("Reddit");
-        dynamicArray.add("Sporcle");
-        dynamicArray.add("Twitter");
+    }
+}
 
-        dynamicArray.delete("YouTube");
-        dynamicArray.delete("Twitch");
-        dynamicArray.delete("CSGO");
-        dynamicArray.delete("Reddit");
-        dynamicArray.delete("Sporcle");
-        dynamicArray.delete("Twitter");
+class DigPow {
+    public static long digPow(int n, int p) {
+        char[] digits = String.valueOf(n).toCharArray();
+        int result = 0;
 
-        System.out.println(dynamicArray);
-        System.out.println(dynamicArray.getSize());
-        System.out.println(dynamicArray.getSize());
+        for(int i = 0; i < digits.length; i++) {
+            result += Math.pow(Character.getNumericValue(digits[i]), (p+i));
+        }
 
-        dynamicArray.delete("Steam");
+        double k = (double) result / n;
 
-        System.out.println(dynamicArray);
-        System.out.println(dynamicArray.search("YouTube"));
-
+        return result == n*k && (k % 1) == 0? (int) k : -1;
     }
 }
