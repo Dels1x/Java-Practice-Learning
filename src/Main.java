@@ -1,33 +1,43 @@
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println(WeightSort.orderWeight("387087 176 351832 100 430372 8 58052 54 175432 120 269974 147 309754 91 404858 67 271476 164 295747 111 40"));
+        LinkedList<String> linkedList = new LinkedList<>();
+
+        linkedList.push("E");
+        linkedList.add("Z");
+        linkedList.push("R");
+        linkedList.add(1, "S");
+
+        System.out.println(linkedList);
+
+        Queue<Integer> queue = new LinkedList<>();
+
+        for(int i = 0; i < 10; i++) queue.offer(i);
+        System.out.println(queue);
+        for(int i = 0; i < 10; i++) System.out.println(queue.poll());
+
+        Stack<String> stack = new Stack<>();
+
+        for(String i: linkedList) stack.push(i);
+        System.out.println(stack.pop());
+
+        PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();
+
+        priorityQueue.offer(1);
+        priorityQueue.offer(5);
+        priorityQueue.offer(2);
+        priorityQueue.offer(9);
+        priorityQueue.offer(3);
+
+        System.out.println(priorityQueue.poll());
+        System.out.println(priorityQueue.poll());
+        System.out.println(priorityQueue.poll());
+        System.out.println(priorityQueue.poll());
+        System.out.println(priorityQueue.poll());
 
 
-    }
-}
 
-class WeightSort {
-
-    public static String orderWeight(String string) {
-        List<String> arr = Arrays.asList(string.split(" "));
-        arr.sort((o1, o2) -> {
-            int diff = WeightSort.sumOfDigits(o1) - WeightSort.sumOfDigits(o2);
-            return diff == 0 ? o1.compareTo(o2) : diff < 0 ? -1 : 1;
-        });
-
-        return String.join(" ", arr);
-    }
-    private static int sumOfDigits(String num) {
-        int sum = 0;
-
-        for(String i : num.split("")) {
-            sum += Integer.parseInt(i);
-        }
-
-        return sum;
     }
 }
