@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="Data Structures and Algorithms: 6. Dynamic Arrays">
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="CodeWars: &#10;Playing with digits&#10;&#10;https://www.codewars.com/kata/5552101f47fc5178b1000050/train/java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -134,13 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00111" summary="biggest number out of digits">
-      <created>1656261607089</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1656261607090</updated>
     </task>
     <task id="LOCAL-00112" summary="https://www.codewars.com/kata/57eb8fcdf670e99d9b000272/train/java">
       <created>1656280072468</created>
@@ -478,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658143863163</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <task id="LOCAL-00160" summary="CodeWars: &#10;Playing with digits&#10;&#10;https://www.codewars.com/kata/5552101f47fc5178b1000050/train/java">
+      <created>1658161495730</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1658161495733</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +494,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Sort the odd&#10;&#10;https://www.codewars.com/kata/578aa45ee9fd15ff4600090d/train/java0004800011" />
     <MESSAGE value="PaginationHelper&#10;&#10;https://www.codewars.com/kata/515bb423de843ea99400000a/solutions/java?filter=me&amp;sort=best_practice.com/kata/515bb423de843ea99400000a/solutions/java?filter=me&amp;sort=best_practice" />
     <MESSAGE value="Counting Duplicates&#10;&#10;https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1/train/java" />
     <MESSAGE value="Stop gninnipS My sdroW!&#10;&#10;https://www.codewars.com/kata/5264d2b162488dc400000001/train/java" />
@@ -519,7 +518,8 @@
     <MESSAGE value="CodeWars: &lt;5kyu&gt; Weight for weight&#10;&#10;https://www.codewars.com/kata/55c6126177c9441a570000cc/train/java&#10;&#10;had to check the solution, if was really hard" />
     <MESSAGE value="Data Structures and Algorithms: repeat of prev. lessons" />
     <MESSAGE value="Data Structures and Algorithms: 6. Dynamic Arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data Structures and Algorithms: 6. Dynamic Arrays" />
+    <MESSAGE value="CodeWars: &#10;Playing with digits&#10;&#10;https://www.codewars.com/kata/5552101f47fc5178b1000050/train/java" />
+    <option name="LAST_COMMIT_MESSAGE" value="CodeWars: &#10;Playing with digits&#10;&#10;https://www.codewars.com/kata/5552101f47fc5178b1000050/train/java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
