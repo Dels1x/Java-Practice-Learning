@@ -1,43 +1,35 @@
-import java.util.*;
-
 public class Main {
     public static void main(String[] args) {
 
-        LinkedList<String> linkedList = new LinkedList<>();
+        DynamicArray dynamicArray = new DynamicArray(5);
 
-        linkedList.push("E");
-        linkedList.add("Z");
-        linkedList.push("R");
-        linkedList.add(1, "S");
+        System.out.println(dynamicArray.getCapacity());
+        System.out.println(dynamicArray.isEmpty());
 
-        System.out.println(linkedList);
+        dynamicArray.add("HLTV");
+        dynamicArray.add("Steam");
+        dynamicArray.add("YouTube");
+        dynamicArray.add("Twitch");
+        dynamicArray.insert(2,"CSGO");
+        dynamicArray.add("Reddit");
+        dynamicArray.add("Sporcle");
+        dynamicArray.add("Twitter");
 
-        Queue<Integer> queue = new LinkedList<>();
+        dynamicArray.delete("YouTube");
+        dynamicArray.delete("Twitch");
+        dynamicArray.delete("CSGO");
+        dynamicArray.delete("Reddit");
+        dynamicArray.delete("Sporcle");
+        dynamicArray.delete("Twitter");
 
-        for(int i = 0; i < 10; i++) queue.offer(i);
-        System.out.println(queue);
-        for(int i = 0; i < 10; i++) System.out.println(queue.poll());
+        System.out.println(dynamicArray);
+        System.out.println(dynamicArray.getSize());
+        System.out.println(dynamicArray.getSize());
 
-        Stack<String> stack = new Stack<>();
+        dynamicArray.delete("Steam");
 
-        for(String i: linkedList) stack.push(i);
-        System.out.println(stack.pop());
-
-        PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();
-
-        priorityQueue.offer(1);
-        priorityQueue.offer(5);
-        priorityQueue.offer(2);
-        priorityQueue.offer(9);
-        priorityQueue.offer(3);
-
-        System.out.println(priorityQueue.poll());
-        System.out.println(priorityQueue.poll());
-        System.out.println(priorityQueue.poll());
-        System.out.println(priorityQueue.poll());
-        System.out.println(priorityQueue.poll());
-
-
+        System.out.println(dynamicArray);
+        System.out.println(dynamicArray.search("YouTube"));
 
     }
 }

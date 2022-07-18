@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="CodeWars: &lt;5kyu&gt; Weight for weight&#10;&#10;https://www.codewars.com/kata/55c6126177c9441a570000cc/train/java&#10;&#10;had to check the solution, if was really hard">
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="Data Structures and Algorithms: repeat of prev. lessons">
+      <change afterPath="$PROJECT_DIR$/src/DynamicArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -134,13 +135,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00109" summary="80. lambda">
-      <created>1656008932526</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1656008932527</updated>
     </task>
     <task id="LOCAL-00110" summary="streams">
       <created>1656012045173</created>
@@ -478,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658131188357</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <task id="LOCAL-00158" summary="Data Structures and Algorithms: repeat of prev. lessons">
+      <created>1658135648083</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1658135648083</updated>
+    </task>
+    <option name="localTasksCounter" value="159" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +495,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Merge in 2048&#10;&#10;https://www.codewars.com/kata/55e1990978c60e5052000011" />
     <MESSAGE value="Detect Pangram&#10;&#10;https://www.codewars.com/kata/545cedaa9943f7fe7b00004800011" />
     <MESSAGE value="Sort the odd&#10;&#10;https://www.codewars.com/kata/578aa45ee9fd15ff4600090d/train/java0004800011" />
     <MESSAGE value="PaginationHelper&#10;&#10;https://www.codewars.com/kata/515bb423de843ea99400000a/solutions/java?filter=me&amp;sort=best_practice.com/kata/515bb423de843ea99400000a/solutions/java?filter=me&amp;sort=best_practice" />
@@ -519,7 +519,8 @@
     <MESSAGE value="Data Structures and Algorithms: 5. Linked Lists" />
     <MESSAGE value="can't do the kata" />
     <MESSAGE value="CodeWars: &lt;5kyu&gt; Weight for weight&#10;&#10;https://www.codewars.com/kata/55c6126177c9441a570000cc/train/java&#10;&#10;had to check the solution, if was really hard" />
-    <option name="LAST_COMMIT_MESSAGE" value="CodeWars: &lt;5kyu&gt; Weight for weight&#10;&#10;https://www.codewars.com/kata/55c6126177c9441a570000cc/train/java&#10;&#10;had to check the solution, if was really hard" />
+    <MESSAGE value="Data Structures and Algorithms: repeat of prev. lessons" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data Structures and Algorithms: repeat of prev. lessons" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
