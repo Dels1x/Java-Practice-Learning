@@ -1,5 +1,5 @@
 import java.util.Arrays;
-import java.util.Collections;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,39 +13,21 @@ public class Main {
 class WeightSort {
 
     public static String orderWeight(String string) {
-        int sum;
-        String output = "";
-        String[] arr = string.split(" ");
-        Arrays.sort(arr);
-        System.out.println(Arrays.toString(arr));
-        int[] values = new int[arr.length];
+        List<String> arr = Arrays.asList(string.split(" "));
+        arr.sort((o1, o2) -> {
+            int diff = WeightSort.sumOfDigits(o1) - WeightSort.sumOfDigits(o2);
+            return diff == 0 ? o1.compareTo(o2) : diff < 0 ? -1 : 1;
+        });
 
+        return String.join(" ", arr);
+    }
+    private static int sumOfDigits(String num) {
+        int sum = 0;
 
-        for(int i = 0; i < arr.length; i++) {
-            sum = 0;
-
-            for(int j = 0; j < arr[i].length(); j++) {
-                sum += Character.getNumericValue(arr[i].charAt(j));
-            }
-
-            values[i] = sum;
+        for(String i : num.split("")) {
+            sum += Integer.parseInt(i);
         }
 
-        for(int i = 0; i < arr.length; i++) {
-            for(int j = i+1; j < arr.length; j++) {
-                if(values[i] > values[j]) {
-                    int intTemp = values[i];
-                    String strTemp = arr[i];
-                    values[i] = values[j];
-                    values[j] = intTemp;
-                    arr[i] = arr[j];
-                    arr[j] = strTemp;
-                }
-            }
-        }
-
-        for(String i : arr) output = output.concat(i.concat(" "));
-
-        return output.trim();
+        return sum;
     }
 }

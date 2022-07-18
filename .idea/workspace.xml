@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="Data Structures and Algorithms: 5. Linked Lists">
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="can't do the kata">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -134,13 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00107" summary="TreeMap">
-      <created>1655905824778</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1655905824778</updated>
     </task>
     <task id="LOCAL-00108" summary="recursion">
       <created>1655906264452</created>
@@ -478,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658051189503</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="can't do the kata">
+      <created>1658065242026</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1658065242036</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +494,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="https://www.codewars.com/kata/5544c7a5cb454edb3c000047/train/java" />
     <MESSAGE value="https://www.codewars.com/kata/56b29582461215098d00000f/train/java" />
     <MESSAGE value="Merge in 2048&#10;&#10;https://www.codewars.com/kata/55e1990978c60e5052000011" />
     <MESSAGE value="Detect Pangram&#10;&#10;https://www.codewars.com/kata/545cedaa9943f7fe7b00004800011" />
@@ -519,7 +518,8 @@
     <MESSAGE value="CodeWars: Persistent Bugger&#10;&#10;https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec/train/java" />
     <MESSAGE value="CodeWars: &#10;Tribonacci Sequence&#10;&#10;https://www.codewars.com/kata/556deca17c58da83c00002db/train/java" />
     <MESSAGE value="Data Structures and Algorithms: 5. Linked Lists" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data Structures and Algorithms: 5. Linked Lists" />
+    <MESSAGE value="can't do the kata" />
+    <option name="LAST_COMMIT_MESSAGE" value="can't do the kata" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
