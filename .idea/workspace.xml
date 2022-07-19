@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="Data Structures and Algorithms: #7  LinkedLists vs ArrayLists ️">
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="Data Structures and Algorithms: 8. Big O notation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -134,13 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00114" summary="body mass index calculator">
-      <created>1656325690680</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1656325690680</updated>
     </task>
     <task id="LOCAL-00115" summary="Invert values&#10;&#10;https://www.codewars.com/kata/5899dc03bc95b1bf1b0000ad/train/java">
       <created>1656326554120</created>
@@ -478,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658169065002</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="Data Structures and Algorithms: 8. Big O notation">
+      <created>1658258903733</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1658258903735</updated>
+    </task>
+    <option name="localTasksCounter" value="164" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +494,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Stop gninnipS My sdroW!&#10;&#10;https://www.codewars.com/kata/5264d2b162488dc400000001/train/java" />
     <MESSAGE value="test commit from new windows" />
     <MESSAGE value="Sum of Digits / Digital Root&#10;&#10;https://www.codewars.com/kata/541c8630095125aba6000c00/train/java" />
     <MESSAGE value="Array.diff&#10;&#10;https://www.codewars.com/kata/523f5d21c841566fde000009/solutions/java" />
@@ -519,7 +518,8 @@
     <MESSAGE value="CodeWars: &#10;Playing with digits&#10;&#10;https://www.codewars.com/kata/5552101f47fc5178b1000050/train/java" />
     <MESSAGE value="CodeWars: &#10;Equal Sides Of An Array&#10;&#10;https://www.codewars.com/kata/5679aa472b8f57fb8c000047/train/java" />
     <MESSAGE value="Data Structures and Algorithms: #7  LinkedLists vs ArrayLists ️" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data Structures and Algorithms: #7  LinkedLists vs ArrayLists ️" />
+    <MESSAGE value="Data Structures and Algorithms: 8. Big O notation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data Structures and Algorithms: 8. Big O notation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
