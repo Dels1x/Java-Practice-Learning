@@ -4,20 +4,34 @@ public class Main {
     public static void main(String[] args) {
 
         /*
-                Bubble Sort =   pairs of adjacent elements are compared, and the elements swapped,
-                                if they are not in order.
-
-                                Quadratic time O(n^2)
-                                small data set = okay-ish
-                                large data set = bad
+                Selection Sort
          */
 
-        int[] array = {2, 1, 9, 5, 4, 7, 6, 8, 3};
+        int[] array = {2, 1, 9, 5, 4, 7, 6, 8, 3, 27, 4, -5, -3, 0};
 
-        bubbleSort(array,true);
+        selectionSort(array,true);
 
         System.out.println(Arrays.toString(array));
 
+
+    }
+
+    public static void selectionSort(int[] array, boolean ascending) {
+        int min;
+        int temp;
+
+        for(int i = 0; i < array.length - 1; i++) {
+            min = i;
+
+            for(int j = i + 1; j < array.length; j++) {
+                if(ascending && array[j] < array[min]) min = j;
+                else if (!ascending && array[j] > array[min]) min = j;
+            }
+
+            temp = array[i];
+            array[i] = array[min];
+            array[min] = temp;
+        }
 
     }
 
