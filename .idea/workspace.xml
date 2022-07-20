@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="Data Structures and Algorithms: 10. Binary Search">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Morgen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UP.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,13 +137,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00116" summary="tower builder">
-      <created>1656413552876</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1656413552877</updated>
     </task>
     <task id="LOCAL-00117" summary="delete all duplicates from array">
       <created>1656681548333</created>
@@ -478,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658259551093</updated>
     </task>
-    <option name="localTasksCounter" value="165" />
+    <task id="LOCAL-00165" summary="Data Structures and Algorithms: 10. Binary Search">
+      <created>1658306203534</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1658306203541</updated>
+    </task>
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +497,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Sum of Digits / Digital Root&#10;&#10;https://www.codewars.com/kata/541c8630095125aba6000c00/train/java" />
     <MESSAGE value="Array.diff&#10;&#10;https://www.codewars.com/kata/523f5d21c841566fde000009/solutions/java" />
     <MESSAGE value="Ascend, Descend, Repeat?&#10;&#10;https://www.codewars.com/kata/62ca07aaedc75c88fb95ee2f/train/java" />
     <MESSAGE value="Bit Counting&#10;&#10;https://www.codewars.com/kata/526571aae218b8ee490006f4/train/java" />
@@ -519,7 +521,8 @@
     <MESSAGE value="Data Structures and Algorithms: #7  LinkedLists vs ArrayLists ️" />
     <MESSAGE value="Data Structures and Algorithms: 8. Big O notation" />
     <MESSAGE value="Data Structures and Algorithms: 9. Linear Search" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data Structures and Algorithms: 9. Linear Search" />
+    <MESSAGE value="Data Structures and Algorithms: 10. Binary Search" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data Structures and Algorithms: 10. Binary Search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
