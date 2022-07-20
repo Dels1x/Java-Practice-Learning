@@ -4,28 +4,41 @@ public class Main {
     public static void main(String[] args) {
 
         /*
-                Interpolation Search =  improvement over binary search best used for "uniformly" distributed data
-                                        "guesses" where a value might be based on calculate probe results
-                                        If probe is incorrect, search area is narrowed, and a new probe is calculated
+                Bubble Sort =   pairs of adjacent elements are compared, and the elements swapped,
+                                if they are not in order.
 
-                                        average case:  O(log(log(n)))
-                                        worst case: O(n) [values increase exponentially]
+                                Quadratic time O(n^2)
+                                small data set = okay-ish
+                                large data set = bad
          */
 
-        int[] array = new int[10000];
+        int[] array = {2, 1, 9, 5, 4, 7, 6, 8, 3};
 
-        for(int i = 0; i < array.length; i++) array[i] = i*3;
+        bubbleSort(array,true);
 
-        int index = interpolationSearch(array, 21219);
+        System.out.println(Arrays.toString(array));
 
-        System.out.println(index);
-        if(index != -1)
-            System.out.println("Value: "+array[index]);
-        else
-            System.out.println("Value not found!");
+
     }
 
-    private static int interpolationSearch(int[] array, int target) {
+    public static void bubbleSort(int[] array, boolean ascending) {
+        for(int i = 0; i < array.length-1; i++) {
+            for(int j = 0; j < array.length - i - 1; j++) {
+                if(ascending && array[j] > array[j+1]) {
+                    int temp = array[j];
+                    array[j] = array[j+1];
+                    array[j+1] = temp;
+                }
+                else if(!ascending && array[j] < array[j+1]) {
+                    int temp = array[j];
+                    array[j] = array[j+1];
+                    array[j+1] = temp;
+                }
+            }
+        }
+    }
+
+    public static int interpolationSearch(int[] array, int target) {
         int probe;
         int low = 0;
         int high = array.length-1;
@@ -43,7 +56,7 @@ public class Main {
         return -1;
     }
 
-    private static int binarySearch(int[] array, int target) {
+    public static int binarySearch(int[] array, int target) {
         int low = 0;
         int middle;
         int high = array.length-1;
@@ -62,7 +75,7 @@ public class Main {
     }
 
 
-    private static int linearSearch(int[] array, int target) {
+    public static int linearSearch(int[] array, int target) {
         for(int i = 0; i < array.length; i++)
             if(array[i] == target)
                 return i;
