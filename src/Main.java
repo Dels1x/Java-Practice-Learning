@@ -1,23 +1,19 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 
         /*
-                Linear Search = Iterate through a collection one element at a time
-
-                                runtime complexity: O(n)
-
-                                Disadvantages:
-                                Slow for large data sets
-
-                                Advantages:
-                                Fast for searches of small to medium data sets
-                                Does not need to sorted
-                                Useful for data structures that do not have random access (Linked Lists)
+                Binary Search = Search algorithm that finds the position of target value within a sorted array.
+                                Half of the array is eliminated during each step.
+                                O(log n).
          */
 
-        int[] array = {5, 2, 6, 8, 1, 9, 13, 15, 14, 58, 0, -3, 87, 7};
+        int[] array = new int[100000000];
 
-        int index = linearSearch(array, 1532);
+        for(int i = 0; i < array.length; i++) array[i] = i*3;
+
+        int index = binarySearch(array, 270000000);
 
         System.out.println(index);
         if(index != -1)
@@ -26,10 +22,28 @@ public class Main {
             System.out.println("Value not found!");
     }
 
-    private static int linearSearch(int[] array, int value) {
+    private static int linearSearch(int[] array, int target) {
         for(int i = 0; i < array.length; i++)
-            if(array[i] == value)
+            if(array[i] == target)
                 return i;
+
+        return -1;
+    }
+
+    private static int binarySearch(int[] array, int target) {
+        int low = 0;
+        int middle;
+        int high = array.length-1;
+        int value;
+
+        while(low <= high) {
+            middle = low + (high - low) / 2;
+            value = array[middle];
+
+            if(value < target) low = middle+1;
+            else if (value > target) high = middle-1;
+            else return middle;
+        }
 
         return -1;
     }
