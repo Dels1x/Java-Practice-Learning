@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="Data Structures and Algorithms: 12. Bubble Sort">
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="Data Structures and Algorithms: 13. Selection Sort">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -134,13 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00119" summary="Find the unique number">
-      <created>1656685058048</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1656685058050</updated>
     </task>
     <task id="LOCAL-00120" summary="MultiThreading in Java Theory">
       <created>1656933658549</created>
@@ -478,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658348961753</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <task id="LOCAL-00168" summary="Data Structures and Algorithms: 13. Selection Sort">
+      <created>1658349887233</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1658349887234</updated>
+    </task>
+    <option name="localTasksCounter" value="169" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +494,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Bit Counting&#10;&#10;https://www.codewars.com/kata/526571aae218b8ee490006f4/train/java" />
     <MESSAGE value="Find The Parity Outlier&#10;&#10;https://www.codewars.com/kata/5526fc09a1bbd946250002dc/train/java" />
     <MESSAGE value="Duplicate Encoder&#10;&#10;https://www.codewars.com/kata/54b42f9314d9229fd6000d9c/train/java" />
     <MESSAGE value="Simple Pig Latin&#10;&#10;https://www.codewars.com/kata/520b9d2ad5c005041100000f/train/java" />
@@ -519,7 +518,8 @@
     <MESSAGE value="Data Structures and Algorithms: 10. Binary Search" />
     <MESSAGE value="Data Structures and Algorithms: 11. Interpolation Search" />
     <MESSAGE value="Data Structures and Algorithms: 12. Bubble Sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data Structures and Algorithms: 12. Bubble Sort" />
+    <MESSAGE value="Data Structures and Algorithms: 13. Selection Sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data Structures and Algorithms: 13. Selection Sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

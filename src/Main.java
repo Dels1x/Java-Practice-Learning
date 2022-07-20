@@ -4,16 +4,40 @@ public class Main {
     public static void main(String[] args) {
 
         /*
-                Selection Sort
+                insertion sort =    after comparing elements to the left
+                                    shifts elements to the right to make room to insert a value
+
+                                    Quadratic time O(n^2)
+                                    small data set = decent
+                                    large data set = BAD
+
+                                    Fewer steps than Bubble Sort
+                                    Best case is O(n) compared to selection sort O(n^2)
          */
 
         int[] array = {2, 1, 9, 5, 4, 7, 6, 8, 3, 27, 4, -5, -3, 0};
 
-        selectionSort(array,true);
+        insertionSort(array);
 
         System.out.println(Arrays.toString(array));
 
 
+    }
+
+
+    public static void insertionSort(int[] array) {
+        int temp;
+
+        for(int i = 1; i < array.length; i++) {
+            temp = array[i];
+            int j = i - 1;
+
+            while(j >= 0 && array[j] > temp) {
+                array[j+1] = array[j];
+                j--;
+            }
+            array[j+1] = temp;
+        }
     }
 
     public static void selectionSort(int[] array, boolean ascending) {
