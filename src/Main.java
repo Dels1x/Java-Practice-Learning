@@ -4,24 +4,40 @@ public class Main {
     public static void main(String[] args) {
 
         /*
-                insertion sort =    after comparing elements to the left
-                                    shifts elements to the right to make room to insert a value
+                Recursion - Advantages:
+                            easier to read/write
+                            easier to debug
 
-                                    Quadratic time O(n^2)
-                                    small data set = decent
-                                    large data set = BAD
-
-                                    Fewer steps than Bubble Sort
-                                    Best case is O(n) compared to selection sort O(n^2)
+                            Disadvantages:
+                            sometimes slower
+                            uses more memory
          */
 
         int[] array = {2, 1, 9, 5, 4, 7, 6, 8, 3, 27, 4, -5, -3, 0};
 
-        insertionSort(array);
+        System.out.println(power(2, 16));
 
-        System.out.println(Arrays.toString(array));
+        int sum = 2;
+
+        while(sum <= 50) {
+            sum = sum*sum;
+        }
+
+        System.out.println(sum);
 
 
+    }
+
+    private static int power(int base, int exponent) {
+        return exponent < 1 ? 1 : base * power(base, exponent-1);
+    }
+
+    private static long factorial(int num) {
+        return num < 1 ? 1 : num * factorial(num - 1);
+    }
+
+    public static int squareUntil50(int n) {
+        return n*n >= 50 ? n*n : squareUntil50(n*n);
     }
 
 
