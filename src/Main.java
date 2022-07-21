@@ -14,8 +14,14 @@ public class Main {
          */
 
         int[] array = {2, 1, 9, 5, 4, 7, 6, 8, 3, 27, 4, -5, -3, 0};
+        char[] chars = "agaoigoeagojaoghj".toCharArray();
 
-        System.out.println(power(2, 16));
+        System.out.println("aBcd".equalsIgnoreCase("abcd"));
+        System.out.println("armaggedon".compareToIgnoreCase("Gratisfaction"));
+        System.out.println("!level".startsWith("!"));
+        System.out.println("sheeeeeeeeeeeeeeeeeeeeesh".matches("she{0,3}sh"));
+        System.out.println("sheeesh".matches("she{0,3}sh"));
+        System.out.println(String.copyValueOf(chars));
 
         int sum = 2;
 
