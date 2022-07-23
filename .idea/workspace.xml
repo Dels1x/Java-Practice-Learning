@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="Data Structures and Algorithms: 15. Recursion">
+    <list default="true" id="9d47e2e8-8700-4c14-8d45-41edc75ae067" name="Changes" comment="Data Structures and Algorithms: 16. Merge Sort">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -134,13 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650547832511</updated>
-    </task>
-    <task id="LOCAL-00122" summary="13.3 Multithreading using Runnable Interface">
-      <created>1656936615821</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1656936615821</updated>
     </task>
     <task id="LOCAL-00123" summary="13.4 MultiThreading using Lambda Expression">
       <created>1656939585597</created>
@@ -478,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658421345932</updated>
     </task>
-    <option name="localTasksCounter" value="171" />
+    <task id="LOCAL-00171" summary="String class">
+      <created>1658421981087</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1658421981087</updated>
+    </task>
+    <option name="localTasksCounter" value="172" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +494,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Simple Pig Latin&#10;&#10;https://www.codewars.com/kata/520b9d2ad5c005041100000f/train/java" />
     <MESSAGE value="Valid Parentheses&#10;&#10;https://www.codewars.com/kata/52774a314c2333f0a7000688/train/java" />
     <MESSAGE value="Directions Reduction&#10;&#10;https://www.codewars.com/kata/550f22f4d758534c1100025a/train/java" />
     <MESSAGE value="Data Structures and Algorithms: 2. stacks" />
@@ -519,7 +518,8 @@
     <MESSAGE value="Data Structures and Algorithms: 13. Selection Sort" />
     <MESSAGE value="Data Structures and Algorithms: 14. Insertion Sort" />
     <MESSAGE value="Data Structures and Algorithms: 15. Recursion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data Structures and Algorithms: 15. Recursion" />
+    <MESSAGE value="String class" />
+    <option name="LAST_COMMIT_MESSAGE" value="String class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
